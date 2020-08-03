@@ -15,7 +15,7 @@ import WeatherDetails from './WeatherDetails'
 
 class WeatherData extends React.Component{
     state = {
-        showWeatherDetails: false;
+        showWeatherDetails: false
     }
     render() {
     const {main, name, sys, weather} = this.props.WeatherData
