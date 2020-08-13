@@ -90,7 +90,7 @@ console.log(!undefined); // true
 console.log(Boolean(NaN)); //false
 console.log(false === false); // true
 console.log(5 === "5"); // false
-console.log("Hello" == "hello"); //true
+console.log("Hello" == "hello"); //true // false... correction
 
 // Challenge 2:
 // What will the following console logs display? (they're all true and false)
