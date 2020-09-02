@@ -17,7 +17,7 @@ const newUser = {
 //    verified: false;
 //}
 
-const createdUser = { ...user, newUser, verified: false};
+const createdUser = { ...user, ...newUser, verified: false}; // makes sure to include updated values
 
 console.log(createdUser)
 
