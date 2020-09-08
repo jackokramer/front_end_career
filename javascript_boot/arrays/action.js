@@ -30,6 +30,13 @@ const restaurants = [
     {name: 'Shake Shack', milesAway: 21}
 ]
 
-const results = restaurants.filter(restaurant => restaurant.name.startsWith(`L`))
+const results = restaurants.filter(restaurant => 
+    restaurant.name.startsWith(`L`) && restaurant.milesAway < 45)
+
+const result = restaurants.filter(restaurant => true)
+
 
 console.log(results);
+
+
+console.log(result);
