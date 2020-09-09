@@ -10,4 +10,20 @@ for(let x = 0; numbers.length>x; x++){
 
 numbers.forEach(number =>{
     console.log(number)
-})
+});
+
+/* 
+- map()
+- filter()
+- reduce()
+- some() / every()
+- find() / findIndex()
+- forEach()
+
+Plus:
+
+- slice()
+- concat()
+- includes()
+- array spread operator
+*/
