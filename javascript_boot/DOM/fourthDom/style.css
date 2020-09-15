@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 1e, 0;
+    align-items: center;
+    justify-content: space-evenly;
+    background: purple;
+}
+
+a{
+    color: white;
+}
+
+.post{
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
