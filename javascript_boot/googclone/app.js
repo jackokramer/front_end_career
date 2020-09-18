@@ -1,6 +1,6 @@
 class App{
     constructor(){
-        this.notes = [];
+        this.notes = JSON.parse(localStorage.getItem('notes')) || [];
         this.title = '';
         this.text= '';
         this.id = '';
@@ -16,7 +16,9 @@ class App{
         this.$modalTitle =  document.querySelector(".modal-title");
         this.$modalText = document.querySelector('.modal-text');
         this.$modalCloseButton = document.querySelector('.modal-close-button');
+        this.$colorToolTip = document.querySelector("#color-tooltip")
 
+        this.render();
         this.addEventListners();
     }
     addEventListners(){
@@ -24,7 +26,32 @@ class App{
             this.handleFormClick(event);
             this.selectNote(event);
             this.openModal(event);
+            this.deleteNote(event);
         });
+
+        document.body.addEventListener('mouseover', event => {
+            this.openToolTip(event);
+        });
+
+        document.body.addEventListener('mouseout', event => {
+            this.closeToolTip(event);
+        });
+
+        this.$colorToolTip.addEventListener('mouseover', function() {
+            this.style.display = 'flex';
+        })
+
+        this.$colorToolTip.addEventListener('mouseout',function() {
+            this.style.display = 'none';
+        })
+
+        this.$colorToolTip.addEventListener('click', event =>{
+            const color = event.target.dataset.color;
+            if(color){
+                this.editNoteColor(color);
+            }
+        })
+
         this.$form.addEventListener(`submit`, event =>{
             event.preventDefault();
             const title = this.$noteTitle.value;
@@ -69,6 +96,8 @@ class App{
         this.$noteText.value = '';
     }
     openModal(event){
+        if(event.target.matches('.toolbar-delete')) return;
+
         if(event.target.closest(`.note`)){
             this.$modal.classList.toggle('open-modal');
             this.$modalTitle.value = this.title;
@@ -78,7 +107,21 @@ class App{
     closeModal(event){
         this.editNote(); 
         this.$modal.classList.toggle('open-modal');
+    }
+    
+    openToolTip(event){
+        if(!event.target.matches('.toolbar-color'))return;
+        this.id = event.target.dataset.id;
+        const noteCords =event.target.getBoundingClientRect();
+        const horizontal = noteCords.left + window.scrollX;
+        const vertical = noteCords.top + window.scrollY;
+        this.$colorToolTip.style.transform = `translate(${horizontal})px, (${vertical})px)`;
+        this.$colorToolTip.style.display = 'flex';
+    }
 
+    closeToolTip(event){
+        if(!event.target,matches('.toolbar-color'))return; // add a comma between target matches for color pivker
+        this.$colorToolTip.style.display='none';
     }
 
     addNote({title, text}){
@@ -89,7 +132,7 @@ class App{
             id: this.notes.length> 0 ? this.notes[this.notes.length-1].id + 1:1
         };
         this.notes= [...this.notes, newNote];
-        this.displayNotes();
+        this.render();
         this.closeForm();
     }
 
@@ -99,7 +142,14 @@ class App{
         this.notes = this.notes.map(note =>
             notes.id === Number(this.id) ? {...note, title, text}: note
             );
-            this.displayNotes();
+            this.render();
+    }
+
+    editNoteColor(color){
+        this.notes = this.notes.map(note =>
+            note.id === Number(this.id)? {...note, color}: note
+            );
+            this.render();
     }
 
     selectNote(event){
@@ -110,18 +160,41 @@ class App{
         this.text = $noteText.innerText;
         this.id = $selectedNote.dataset.id;
     }
+
+    deleteNote(event){
+        event.stopPropagation();
+        if(!event.target.matches('.toolbar-delete')) return;
+        const id = event.target.dataset.id;
+        this.notes.filter(note => {
+            note.id !==Number((id));
+            this.render();
+        })
+    }
+
+    render(){
+        this.saveNotes();
+        this.displayNotes();
+    }
+
+    saveNotes(){
+        localStorage.setItem('notes', JSON.stringify(this.notes));
+        this.render()
+    }
+
     displayNotes(){
         const hasNotes = this.notes.length>0;
         this.$placeholder.style.display = hasNotes ? 'none' : 'flex';
 
-        this.$notes.innerHTML =this.notes.map(note => `
+        this.$notes.innerHTML = this.notes
+        .map(
+            note => `
             <div style="background: ${note.color};" class="note" data-id="${note.id}">
                 <div class="${note.title && 'note-title'}">${note.title}</div>
                 <div class="note-text">${note.text}</div>
                 <div class="toolbar-container">
                     <div class="toolbar">
-                        <img class="toolbar-color" src="https://icon.now.sh/palette"></img>
-                        <img class="toolbar-delete" src="https://icon.now.sh/delete"></img>
+                        <img class="toolbar-color" data-id=${note.id} src="https://icon.now.sh/palette"></img>
+                        <img data-id=${note.id} class="toolbar-delete" src="https://icon.now.sh/delete"></img>
                     </div>
                 </div>
             </div>
