@@ -120,7 +120,7 @@ class App{
     }
 
     closeToolTip(event){
-        if(!event.target,matches('.toolbar-color'))return; // add a comma between target matches for color pivker
+        if(!event.target.matches('.toolbar-color'))return; // add a comma between target matches for color pivker
         this.$colorToolTip.style.display='none';
     }
 
@@ -178,7 +178,6 @@ class App{
 
     saveNotes(){
         localStorage.setItem('notes', JSON.stringify(this.notes));
-        this.render()
     }
 
     displayNotes(){
