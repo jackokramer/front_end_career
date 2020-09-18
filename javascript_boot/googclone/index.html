@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-content">
+            <input type="text" class="modal-title" placeholder="Title">
+            <input type="text" class="modal-text" placeholder="Write something new here">
+            <span class="modal-close-button">Close</span>
+        </div>
+    </div>
+    <main>
+    <header>
+        <img src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png" alt="" class="header-log">
+        <h2 class="header-title">Keep</h2>
+    </header>
+            <div id="form-container">
+                <form action="/enter" method="post" id="form" autocomplete="off">
+                    <p><input type="text" class="note-title" placeholder="Title"></p>
+                    <p><input type="text" class="note-text" placeholder="Take a note ..."></p>
+                    <div class="form-buttons">
+                        <button type="submit" id='submit-button'>Submit</button>
+                        <button type="button" id='form-close-button'>Close</button>
+                    </div>
+            </form>
+        </div>
+        <div id="notes"></div>
+        <div id="placeholder">
+            <img id="placeholder-logo" src="https://icon.now.sh/lightbulb_outline">
+            <p id="placeholder-text">Notes you add appear here</p>
+        </div>
+    </main>
+    <script src="app.js" defer></script>
+</body>
+</html>
