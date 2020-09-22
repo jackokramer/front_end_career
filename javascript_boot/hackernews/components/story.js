@@ -1,9 +1,9 @@
 function Story(story){
     //console.log(story);
     return `<div class='story'>
-        <span class='gray>${story.index}<span>    
+        <span class='gray>${story.index || ""}<span>    
         <span class='upvote'>▲</span>
-        <a href="${storu.url}">${story.title}</a>
+        <a href="${story.url}">${story.title}</a>
         <span>(${story.domain})</span>
     </div>
     <div class='grey'>
