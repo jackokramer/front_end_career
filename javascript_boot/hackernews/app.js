@@ -1,7 +1,7 @@
-import RouterHandler from './router.js'
+import RouterHandler from './router.js';
 
 window.onhashchange = () => {
-    console.log('changed')
+    setActiveLink();
 }
 
 function setActiveLink(){
