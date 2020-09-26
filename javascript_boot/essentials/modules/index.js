@@ -1,4 +1,4 @@
-import getDate from '../utils/date.js';
+import getDate from './utils/date.js';
 
 // Modules - allow us to share code between files
 // still being able to share codes between files
@@ -16,6 +16,6 @@ class App{
 //import / export
 
 //console.log(this);
-//getDate();
+//getDate() ;;;
 
 new App()
