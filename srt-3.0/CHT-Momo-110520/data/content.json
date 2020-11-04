@@ -1,0 +1,1932 @@
+{
+  "content": [
+    {
+      "site_title": "Intel® 電腦選購指南",
+      "entry_screen_title": "尋找最適合您的電腦",
+      "entry_screen": [
+        {
+          "icon": "assets/images/icons/icon-start-01.svg",
+          "content": "選擇您想要的裝置類型"
+        },
+        {
+          "icon": "assets/images/icons/icon-start-02.svg",
+          "content": "告訴我們您打算如何使用它"
+        },
+        {
+          "icon": "assets/images/icons/icon-start-03.svg",
+          "content": "我們會依據您的回答來推薦產品"
+        }
+      ],
+      "form_factor_choice_title": "我想要買：",
+      "form_factor_choice_subtitle": "從以下選取一個類別",
+      "form_factor": [
+        {
+          "title": "筆記型電腦、二&#xfeff;合&#xfeff;一&#xfeff;裝&#xfeff;置&#xfeff;，以&#xfeff;及&nbsp;Chromebook<sup>*</sup>",
+          "title_fallback": "筆記型電腦及二合一裝置",
+          "sub_title": "請問您的電腦用途有哪些？",
+          "id": "Notebook",
+          "image": "assets/images/laptop-two-in-one.png",
+          "icon": "assets/images/icons/icon-Notebook.svg",
+          "usage_categories": [
+            {
+              "title": "生產力",
+              "id": "Notebook_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "電子郵件與網頁瀏覽",
+                  "id": "Notebook_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "查看社群媒體、和朋友聊天、線上購物及閱讀新聞。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "家用文書處理",
+                  "id": "Notebook_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "管理行事曆和個人財務、寫節慶賀卡及安排待辦事項清單。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "中小企業應用程式",
+                  "id": "Notebook_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "共用文件檔案進行協同合作、編列試算表和報告書，並管理員工薪資單。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "複雜的商務應用",
+                  "id": "Notebook_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "搜尋資料庫、渲染 3D 物件，並使用企業級軟體。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "娛樂",
+              "id": "Notebook_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "聽音樂",
+                  "id": "Notebook_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "逐一或根據播放清單播放您最喜愛的歌曲和播客(Podcast)。 "
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "看電視與電影",
+                  "id": "Notebook_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "在客廳舒適地享受高畫質視覺效果，盡情追劇，享受您最喜愛的節目。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "4K 影片串流",
+                  "id": "Notebook_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "串流最新 4K 影片，畫質清晰，視角寬廣，所有細節皆纖毫畢現。",
+                      "caption": "推薦的 4K 螢幕",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "VR 和 360˚ 娛樂",
+                  "id": "Notebook_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "透過虛擬實境探索突破性的身歷其境體驗。遠離日常塵囂，探索新奇世界。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "相片和影片",
+              "id": "Notebook_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "線上整理相片",
+                  "id": "Notebook_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "將相片整理成相簿、為人物和地點加上標籤，分享至社群媒體，或集結成為超酷動態影片。",
+                      "caption": "搭配 Chromebook<sup>*</sup> 使用最讚",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "輕鬆簡易的相片編輯",
+                  "id": "Notebook_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "將家人、朋友或最新假期相片稍作修圖，再次經歷美好時光。",
+                      "caption": "試用 Windows<sup>*</sup> Ink",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "影片編輯",
+                  "id": "Notebook_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "為珍貴體驗打造精彩動人剪輯。",
+                      "caption": "建議搭配 500GB 以上儲存空間",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "專業媒體應用程式",
+                  "id": "Notebook_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "透過強大軟體工具創作 4K 影片、平面設計和其他曼妙藝術作品。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            },
+            {
+              "title": "教育",
+              "id": "Notebook_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "小學",
+                  "id": "Notebook_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "讓年輕學子與同儕協同合作並學習相關技術。",
+                      "caption": "搭配 Chromebook<sup>*</sup> 使用最讚",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "國中和高中",
+                  "id": "Notebook_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "使用裝置隨附的軟體來寫報告和進行線上研究。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "學院和大學",
+                  "id": "Notebook_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "在課堂中做筆記、寫論文，並使用商務級生產力軟體。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "技術性課程作業",
+                  "id": "Notebook_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "學習如何使用專門軟體工具建立網站、編輯 4K 影片並編寫應用程式。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "遊戲",
+              "id": "Notebook_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "智力遊戲和社交遊戲",
+                  "id": "Notebook_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "向朋友下戰帖，看誰能最快粉碎方塊和完成填字遊戲。"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "基本單人遊戲",
+                  "id": "Notebook_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "在遊戲中探索奇妙新世界，全家大小一同樂無窮。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "線上遊戲",
+                  "id": "Notebook_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "加入最熱門的多人遊戲，與世界各地高手對決。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "硬派遊戲與 VR",
+                  "id": "Notebook_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "不論同時使用虛擬實境、玩遊戲、進行串流還是錄製都能順暢無比，一個畫格也不掉。",
+                      "caption": "建議採用獨立顯示卡",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "筆記型電腦、二&#xfeff;合&#xfeff;一&#xfeff;裝&#xfeff;置&#xfeff;，以&#xfeff;及&nbsp;Chromebook<sup>*</sup>",
+              "id": "sj_Notebook",
+              "image": "assets/images/laptop-two-in-one-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "選擇主打長效電池續航力及時尚輕薄設計的筆記型電腦，隨處工作、隨時玩樂。"
+                },
+                {
+                  "paragraph": "二合一裝置能提供完整的筆電效能，還有平板電腦的便攜特性。"
+                },
+                {
+                  "paragraph": "Chromebook<sup>*</sup> 會自動更新，輕鬆地讓您的電腦保持在最新狀態。"
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "Intel® Core™ i9 處理器",
+              "id": "Notebook_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "暢快開戰、直播、錄製，或是無限釋放您的創作潛力。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i7 處理器",
+              "id": "Notebook_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "高速處理器既能為您執行需求嚴苛的應用程式，又能提供極緻的效能。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_complex-business-applications"
+                },
+                {
+                  "id": "Notebook_vr-360-entertainment"
+                },
+                {
+                  "id": "Notebook_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i5 處理器",
+              "id": "Notebook_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "進階運算威力和高反應能力，讓您縮短等待時間，擁有更多時間工作和遊戲。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_small-midsize-business-programs"
+                },
+                {
+                  "id": "Notebook_4k-video-streaming"
+                },
+                {
+                  "id": "Notebook_video-editing"
+                },
+                {
+                  "id": "Notebook_college-university"
+                },
+                {
+                  "id": "Notebook_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i3 處理器",
+              "id": "Notebook_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "提供順暢無礙效能，適合執行輕生產力工作和全螢幕視訊串流等日&#xfeff;常&#xfeff;任&#xfeff;務。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_home-office-tasks"
+                },
+                {
+                  "id": "Notebook_basic-single-player-games"
+                },
+                {
+                  "id": "Notebook_watching-tv-movies"
+                },
+                {
+                  "id": "Notebook_simple-photo-editing"
+                },
+                {
+                  "id": "Notebook_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Pentium® 處理器",
+              "id": "Notebook_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "價值與效能令人驚豔，讓您輕鬆完成必要線上和離線工作。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_organizing-photos-online"
+                },
+                {
+                  "id": "Notebook_elementary-school"
+                },
+                {
+                  "id": "Notebook_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Celeron® 處理器",
+              "id": "Notebook_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "是追求基本功能和實惠價格者的理想選擇。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_email-web-browsing"
+                },
+                {
+                  "id": "Notebook_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "處理器",
+                  "subtitle": "（電腦的大腦）",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "記憶體",
+                  "subtitle": "（同時執行多個應用程式）",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "高達 4GB",
+                  "subtitle": "（適合同時執行 1 至 3 個程式）"
+                },
+                {
+                  "title": "高達 8GB",
+                  "subtitle": "（適合同時執行 4 至 6 個程式）"
+                },
+                {
+                  "title": "高達 16GB",
+                  "subtitle": "（適合同時執行 7 個\uFEFF或\uFEFF以\uFEFF上\uFEFF的\uFEFF程\uFEFF式）"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "儲存裝置",
+                  "subtitle": "（在您的電腦上儲存檔案）",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "最高 500GB HDD",
+                  "subtitle": "（適合儲存多達 100 小\uFEFF時\uFEFF的\uFEFF視\uFEFF訊）"
+                },
+                {
+                  "title": "最高 1TB HDD 及/或 128/256GB SSD"
+                },
+                {
+                  "title": "500GB HDD + SSD",
+                  "subtitle": "（適合快速開機和資料存取）"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "螢幕",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "最高 1920 x 1080 像素 (HD)"
+                },
+                {
+                  "title": "最高 1920 x 1080 像素 (HD)"
+                },
+                {
+                  "title": "最高 3840 x 2160 (4K Ultra HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "顯示晶片",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "整合式顯示卡"
+                },
+                {
+                  "title": "整合式顯示卡或入\uFEFF門\uFEFF級\uFEFF獨\uFEFF立\uFEFF顯\uFEFF示\uFEFF卡"
+                },
+                {
+                  "title": "獨立顯示卡或高階整合式顯示卡"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Intel® WiFi 6 (Gig+)",
+                  "subtitle": "電腦與家用路由器的新一代 WiFi",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "相較於先前的 WiFi 選項，傳輸速度變更快、延遲更少、且更安全"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Intel® Optane™ Memory",
+                  "subtitle": "加速電腦的反應能力",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "將 Intel® Optane™ memory 搭配硬碟機，開啟大型檔案、啟動應用程式，甚至是開機都能變得更迅速"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Thunderbolt™ 3 技術",
+                  "subtitle": "賦予 USB&#8209;C* 高速度和多功能",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "一條小纜線就能連接基座、螢幕、儲存裝置、外接顯卡和更多裝置，同時還能提供電力"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Intel 認證",
+                  "subtitle": "筆記型電腦創新的新時代",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "每台經過認證的筆記型電腦均符合 Intel 設立的高標準，為您提供快速反應、超持久電池續航力、即刻恢復等性能"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "桌上型電腦、迷你電腦，以及整合式全功能 All&#8209;in&#8209;One 電腦",
+          "sub_title": "請問您的電腦用途有哪些？",
+          "id": "Desktop",
+          "image": "assets/images/desktop-all-in-one.png",
+          "icon": "assets/images/icons/icon-Desktop.svg",
+          "usage_categories": [
+            {
+              "title": "生產力",
+              "id": "Desktop_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "電子郵件與網頁瀏覽",
+                  "id": "Desktop_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "查看社群媒體、和朋友聊天、線上購物及閱讀新聞。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "家用文書處理",
+                  "id": "Desktop_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "管理行事曆和個人財務、寫節慶賀卡及安排待辦事項清單。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "中小企業應用程式",
+                  "id": "Desktop_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "共用文件檔案進行協同合作、編列試算表和報告書，並管理員工薪資單。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "複雜的商務應用",
+                  "id": "Desktop_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "搜尋資料庫、渲染 3D 物件，並使用企業級軟體。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "娛樂",
+              "id": "Desktop_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "聽音樂",
+                  "id": "Desktop_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "逐一或根據播放清單播放您最喜愛的歌曲和播客(Podcast)。 "
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "看電視與電影",
+                  "id": "Desktop_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "在客廳舒適地享受高畫質視覺效果，盡情追劇，享受您最喜愛的節目。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "4K 影片串流",
+                  "id": "Desktop_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "串流最新 4K 影片，畫質清晰，視角寬廣，所有細節皆纖毫畢現。",
+                      "caption": "推薦的 4K 螢幕",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "VR 和 360˚ 娛樂",
+                  "id": "Desktop_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "透過虛擬實境探索突破性的身歷其境體驗。遠離日常塵囂，探索新奇世界。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "相片和影片",
+              "id": "Desktop_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "線上整理相片",
+                  "id": "Desktop_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "將相片整理成相簿、為人物和地點加上標籤，分享至社群媒體，或集結成為超酷動態影片。",
+                      "caption": "搭配 Chromebook<sup>*</sup> 使用最讚",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "輕鬆簡易的相片編輯",
+                  "id": "Desktop_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "將家人、朋友或最新假期相片稍作修圖，再次經歷美好時光。",
+                      "caption": "試用 Windows<sup>*</sup> Ink",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "影片編輯",
+                  "id": "Desktop_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "為珍貴體驗打造精彩動人剪輯。",
+                      "caption": "建議搭配 500GB 以上儲存空間",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "專業媒體應用程式",
+                  "id": "Desktop_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "透過強大軟體工具創作 4K 影片、平面設計和其他曼妙藝術作品。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            },
+            {
+              "title": "教育",
+              "id": "Desktop_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "小學",
+                  "id": "Desktop_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "讓年輕學子與同儕協同合作並學習相關技術。",
+                      "caption": "搭配 Chromebook<sup>*</sup> 使用最讚",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "國中和高中",
+                  "id": "Desktop_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "使用裝置隨附的軟體來寫報告和進行線上研究。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "學院和大學",
+                  "id": "Desktop_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "在課堂中做筆記、寫論文，並使用商務級生產力軟體。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "技術性課程作業",
+                  "id": "Desktop_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "學習如何使用專門軟體工具建立網站、編輯 4K 影片並編寫應用程式。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "遊戲",
+              "id": "Desktop_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "智力遊戲和社交遊戲",
+                  "id": "Desktop_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "向朋友下戰帖，看誰能最快粉碎方塊和完成填字遊戲。"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "基本單人遊戲",
+                  "id": "Desktop_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "在遊戲中探索奇妙新世界，全家大小一同樂無窮。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "線上遊戲",
+                  "id": "Desktop_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "加入最熱門的多人遊戲，與世界各地高手對決。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "硬派遊戲與 VR",
+                  "id": "Desktop_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "不論同時使用虛擬實境、玩遊戲、進行串流還是錄製都能順暢無比，一個畫格也不掉。",
+                      "caption": "建議採用獨立顯示卡",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "桌上型電腦、迷你電腦，以及整合式全功能 All&#8209;in&#8209;One 電腦",
+              "id": "sj_Desktop",
+              "image": "assets/images/desktop-all-in-one-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "多款桌上型電腦樣式和組態任君挑選，讓您體驗身歷其境般的 HD 繪圖效果。"
+                },
+                {
+                  "paragraph": "迷你電腦不但具備完整功能，且體積小到可以直接放入抽屜裡。"
+                },
+                {
+                  "paragraph": "整合式全功能 All&#8209;in&#8209;One 電腦配備大尺寸觸控螢幕，設定簡易方便。"
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "Intel® Core™ i9 處理器",
+              "id": "Desktop_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "暢快開戰、直播、錄製，或是無限釋放您的創作潛力。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i7 處理器",
+              "id": "Desktop_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "高速處理器既能為您執行需求嚴苛的應用程式，又能提供極緻的效能。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_complex-business-applications"
+                },
+                {
+                  "id": "Desktop_vr-360-entertainment"
+                },
+                {
+                  "id": "Desktop_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i5 處理器",
+              "id": "Desktop_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "進階運算威力和高反應能力，讓您縮短等待時間，擁有更多時間工作和遊戲。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_small-midsize-business-programs"
+                },
+                {
+                  "id": "Desktop_4k-video-streaming"
+                },
+                {
+                  "id": "Desktop_video-editing"
+                },
+                {
+                  "id": "Desktop_college-university"
+                },
+                {
+                  "id": "Desktop_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i3 處理器",
+              "id": "Desktop_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "提供順暢無礙效能，適合執行輕生產力工作和全螢幕視訊串流等日&#xfeff;常&#xfeff;任&#xfeff;務。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_home-office-tasks"
+                },
+                {
+                  "id": "Desktop_basic-single-player-games"
+                },
+                {
+                  "id": "Desktop_watching-tv-movies"
+                },
+                {
+                  "id": "Desktop_simple-photo-editing"
+                },
+                {
+                  "id": "Desktop_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Pentium® 處理器",
+              "id": "Desktop_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "價值與效能令人驚豔，讓您輕鬆完成必要線上和離線工作。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_organizing-photos-online"
+                },
+                {
+                  "id": "Desktop_elementary-school"
+                },
+                {
+                  "id": "Desktop_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Celeron® 處理器",
+              "id": "Desktop_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "是追求基本功能和實惠價格者的理想選擇。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_email-web-browsing"
+                },
+                {
+                  "id": "Desktop_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "處理器",
+                  "subtitle": "（電腦的大腦）",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "記憶體",
+                  "subtitle": "（同時執行多個應用程式）",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "高達 4GB",
+                  "subtitle": "（適合同時執行 1 至 3 個程式）"
+                },
+                {
+                  "title": "高達 8GB",
+                  "subtitle": "（適合同時執行 4 至 6 個程式）"
+                },
+                {
+                  "title": "高達 16GB",
+                  "subtitle": "（適合同時執行 7 個\uFEFF或\uFEFF以\uFEFF上\uFEFF的\uFEFF程\uFEFF式）"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "儲存裝置",
+                  "subtitle": "（在您的電腦上儲存檔案）",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "最高 500GB HDD",
+                  "subtitle": "（適合儲存多達 100 小\uFEFF時\uFEFF的\uFEFF視\uFEFF訊）"
+                },
+                {
+                  "title": "最高 1TB HDD 及/或 128/256GB SSD"
+                },
+                {
+                  "title": "500GB HDD + SSD",
+                  "subtitle": "（適合快速開機和資料存取）"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "螢幕",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "最高 1920 x 1080 像素 (HD)"
+                },
+                {
+                  "title": "最高 1920 x 1080 像素 (HD)"
+                },
+                {
+                  "title": "最高 3840 x 2160 (4K Ultra HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "顯示晶片",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "整合式顯示卡"
+                },
+                {
+                  "title": "整合式顯示卡或入\uFEFF門\uFEFF級\uFEFF獨\uFEFF立\uFEFF顯\uFEFF示\uFEFF卡"
+                },
+                {
+                  "title": "獨立顯示卡或高階整合式顯示卡"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Intel® WiFi 6 (Gig+)",
+                  "subtitle": "電腦與家用路由器的新一代 WiFi",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "相較於先前的 WiFi 選項，傳輸速度變更快、延遲更少、且更安全"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Intel® Optane™ Memory",
+                  "subtitle": "加速電腦的反應能力",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "將 Intel® Optane™ memory 搭配硬碟機，開啟大型檔案、啟動應用程式，甚至是開機都能變得更迅速"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Thunderbolt™ 3 技術",
+                  "subtitle": "賦予 USB&#8209;C* 高速度和多功能",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "一條小纜線就能連接基座、螢幕、儲存裝置、外接顯卡和更多裝置，同時還能提供電力"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Intel 認證",
+                  "subtitle": "筆記型電腦創新的新時代",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "每台經過認證的筆記型電腦均符合 Intel 設立的高標準，為您提供快速反應、超持久電池續航力、即刻恢復等性能"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chrome OS 裝置",
+          "sub_title": "您想要如何運用 Chrome OS 裝置？",
+          "id": "Chromebook",
+          "image": "assets/images/chromebook.png",
+          "icon": "assets/images/icons/icon-Desktop.svg",
+          "usage_categories": [
+            {
+              "title": "生產力",
+              "id": "Chromebook_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "電子郵件與網頁瀏覽",
+                  "id": "Chromebook_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "查看社群媒體、和朋友聊天、線上購物及閱讀新聞。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "家用文書處理",
+                  "id": "Chromebook_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "管理行事曆和個人財務、寫節慶賀卡及安排待辦事項清單。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "中小企業應用程式",
+                  "id": "Chromebook_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "共用文件檔案進行協同合作、編列試算表和報告書，並管理員工薪資單。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "複雜的商務應用",
+                  "id": "Chromebook_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "搜尋資料庫、渲染 3D 物件，並使用企業級軟體。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "娛樂",
+              "id": "Chromebook_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "聽音樂",
+                  "id": "Chromebook_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "逐一或根據播放清單播放您最喜愛的歌曲和播客(Podcast)。 "
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "看電視與電影",
+                  "id": "Chromebook_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "在客廳舒適地享受高畫質視覺效果，盡情追劇，享受您最喜愛的節目。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "4K 影片串流",
+                  "id": "Chromebook_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "串流最新 4K 影片，畫質清晰，視角寬廣，所有細節皆纖毫畢現。",
+                      "caption": "推薦的 4K 螢幕",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "VR 和 360˚ 娛樂",
+                  "id": "Chromebook_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "透過虛擬實境探索突破性的身歷其境體驗。遠離日常塵囂，探索新奇世界。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "相片和影片",
+              "id": "Chromebook_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "線上整理相片",
+                  "id": "Chromebook_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "將相片整理成相簿、為人物和地點加上標籤，分享至社群媒體，或集結成為超酷動態影片。",
+                      "caption": "搭配 Chromebook<sup>*</sup> 使用最讚",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "輕鬆簡易的相片編輯",
+                  "id": "Chromebook_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "將家人、朋友或最新假期相片稍作修圖，再次經歷美好時光。",
+                      "caption": "試用 Windows<sup>*</sup> Ink",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "影片編輯",
+                  "id": "Chromebook_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "為珍貴體驗打造精彩動人剪輯。",
+                      "caption": "建議搭配 500GB 以上儲存空間",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "專業媒體應用程式",
+                  "id": "Chromebook_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "透過強大軟體工具創作 4K 影片、平面設計和其他曼妙藝術作品。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            },
+            {
+              "title": "教育",
+              "id": "Chromebook_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "小學",
+                  "id": "Chromebook_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "讓年輕學子與同儕協同合作並學習相關技術。",
+                      "caption": "搭配 Chromebook<sup>*</sup> 使用最讚",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "國中和高中",
+                  "id": "Chromebook_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "使用裝置隨附的軟體來寫報告和進行線上研究。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "學院和大學",
+                  "id": "Chromebook_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "在課堂中做筆記、寫論文，並使用商務級生產力軟體。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "技術性課程作業",
+                  "id": "Chromebook_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "學習如何使用專門軟體工具建立網站、編輯 4K 影片並編寫應用程式。",
+                      "caption": "建議搭配 8GB 以上記憶體",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "遊戲",
+              "id": "Chromebook_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "智力遊戲和社交遊戲",
+                  "id": "Chromebook_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "向朋友下戰帖，看誰能最快粉碎方塊和完成填字遊戲。"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "基本單人遊戲",
+                  "id": "Chromebook_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "在遊戲中探索奇妙新世界，全家大小一同樂無窮。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "線上遊戲",
+                  "id": "Chromebook_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "加入最熱門的多人遊戲，與世界各地高手對決。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "硬派遊戲與 VR",
+                  "id": "Chromebook_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "不論同時使用虛擬實境、玩遊戲、進行串流還是錄製都能順暢無比，一個畫格也不掉。",
+                      "caption": "建議採用獨立顯示卡",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "Chrome OS 裝置",
+              "id": "sj_Chromebook",
+              "image": "assets/images/chromebook-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "選擇主打長效電池續航力及時尚輕薄設計的筆記型電腦，隨處工作、隨時玩樂。"
+                },
+                {
+                  "paragraph": "二合一裝置能提供完整的筆電效能，還有平板電腦的便攜特性。"
+                },
+                {
+                  "paragraph": "Chromebook<sup>*</sup> 會自動更新，輕鬆地讓您的電腦保持在最新狀態。"
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "Intel® Core™ i9 處理器",
+              "id": "Chromebook_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "暢快開戰、直播、錄製，或是無限釋放您的創作潛力。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i7 處理器",
+              "id": "Chromebook_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "高速處理器既能為您執行需求嚴苛的應用程式，又能提供極緻的效能。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_complex-business-applications"
+                },
+                {
+                  "id": "Chromebook_vr-360-entertainment"
+                },
+                {
+                  "id": "Chromebook_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i5 處理器",
+              "id": "Chromebook_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "進階運算威力和高反應能力，讓您縮短等待時間，擁有更多時間工作和遊戲。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_small-midsize-business-programs"
+                },
+                {
+                  "id": "Chromebook_4k-video-streaming"
+                },
+                {
+                  "id": "Chromebook_video-editing"
+                },
+                {
+                  "id": "Chromebook_college-university"
+                },
+                {
+                  "id": "Chromebook_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Core™ i3 處理器",
+              "id": "Chromebook_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "提供順暢無礙效能，適合執行輕生產力工作和全螢幕視訊串流等日&#xfeff;常&#xfeff;任&#xfeff;務。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_home-office-tasks"
+                },
+                {
+                  "id": "Chromebook_basic-single-player-games"
+                },
+                {
+                  "id": "Chromebook_watching-tv-movies"
+                },
+                {
+                  "id": "Chromebook_simple-photo-editing"
+                },
+                {
+                  "id": "Chromebook_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Pentium® 處理器",
+              "id": "Chromebook_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "價值與效能令人驚豔，讓您輕鬆完成必要線上和離線工作。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_organizing-photos-online"
+                },
+                {
+                  "id": "Chromebook_elementary-school"
+                },
+                {
+                  "id": "Chromebook_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Intel® Celeron® 處理器",
+              "id": "Chromebook_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "是追求基本功能和實惠價格者的理想選擇。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_email-web-browsing"
+                },
+                {
+                  "id": "Chromebook_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "處理器",
+                  "subtitle": "（電腦的大腦）",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "記憶體",
+                  "subtitle": "（同時執行多個應用程式）",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "高達 4GB",
+                  "subtitle": "（適合同時執行 1 至 3 個程式）"
+                },
+                {
+                  "title": "高達 8GB",
+                  "subtitle": "（適合同時執行 4 至 6 個程式）"
+                },
+                {
+                  "title": "高達 16GB",
+                  "subtitle": "（適合同時執行 7 個\uFEFF或\uFEFF以\uFEFF上\uFEFF的\uFEFF程\uFEFF式）"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "儲存裝置",
+                  "subtitle": "（在您的電腦上儲存檔案）",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "最高 500GB HDD",
+                  "subtitle": "（適合儲存多達 100 小\uFEFF時\uFEFF的\uFEFF視\uFEFF訊）"
+                },
+                {
+                  "title": "最高 1TB HDD 及/或 128/256GB SSD"
+                },
+                {
+                  "title": "500GB HDD + SSD",
+                  "subtitle": "（適合快速開機和資料存取）"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "螢幕",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "最高 1920 x 1080 像素 (HD)"
+                },
+                {
+                  "title": "最高 1920 x 1080 像素 (HD)"
+                },
+                {
+                  "title": "最高 3840 x 2160 (4K Ultra HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "顯示晶片",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "整合式顯示卡"
+                },
+                {
+                  "title": "整合式顯示卡或入\uFEFF門\uFEFF級\uFEFF獨\uFEFF立\uFEFF顯\uFEFF示\uFEFF卡"
+                },
+                {
+                  "title": "獨立顯示卡或高階整合式顯示卡"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Intel® WiFi 6 (Gig+)",
+                  "subtitle": "電腦與家用路由器的新一代 WiFi",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "相較於先前的 WiFi 選項，傳輸速度變更快、延遲更少、且更安全"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Intel® Optane™ Memory",
+                  "subtitle": "加速電腦的反應能力",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "將 Intel® Optane™ memory 搭配硬碟機，開啟大型檔案、啟動應用程式，甚至是開機都能變得更迅速"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Thunderbolt™ 3 技術",
+                  "subtitle": "賦予 USB&#8209;C* 高速度和多功能",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "一條小纜線就能連接基座、螢幕、儲存裝置、外接顯卡和更多裝置，同時還能提供電力"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Intel 認證",
+                  "subtitle": "筆記型電腦創新的新時代",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "每台經過認證的筆記型電腦均符合 Intel 設立的高標準，為您提供快速反應、超持久電池續航力、即刻恢復等性能"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "usage_category_title": "我想要將電腦用於：",
+      "usage_category_subtitle": "請選取以下所有符合的項目",
+      "usage_model_side_journey_title": "一般用途：",
+      "processor_comparison_side_journey_title": "比較 Intel® 處理器",
+      "processor_comparison_side_journey_subtitle": "以下是我們為每個工作負載推薦的處理器。選取下方索引標籤以獲得詳細資訊。",
+      "processor_side_journeys_subtitle": "這些處理器最適合",
+      "device_configuration_side_journey_title": "典型的裝置組態",
+      "device_configuration_side_journey_subtitle": "以下是典型的裝置組態以及簡要說明不同選擇對您的意義。",
+      "device_configuration_side_journey_sidebar_title": "進一步瞭解裝置組態",
+      "features_technology_side_journey_title": "其他電腦功能與技術",
+      "features_technology_side_journey_subtitle": "當您比較裝置時，這裡有幾個其它屬性是您應該考慮的。",
+      "features_technology_side_journey_button": "探索其他電腦功能與技術",
+      "reasoning_side_journey_title": "您選擇",
+      "reasoning_side_journey_subtitle": "我們推薦這些裝置，因為您對下列項目感興趣：",
+      "sharing_title": "取得共用連結",
+      "sharing_content": [
+        {
+          "paragraph": "複製此連結儲存建議結果，並透過電子郵件或社群媒體分享給他人"
+        }
+      ],
+      "legal_title": "法律聲明",
+      "legal_content": [
+        {
+          "paragraph": "Intel® 技術的功能與優勢取決於系統配置而定，可能會要求開啟相關硬體、軟體或服務。效能會依系統組態而有所不同。沒有產品或元件能提供絕對的安全性。請洽詢您的系統製造商或零售商，或造訪 intel.com 瞭解更多資訊。"
+        },
+        {
+          "paragraph": "Intel、Intel 圖誌、Celeron、Pentium、Intel Core、Intel Optane、Thunderbolt 和 Thunderbolt 圖誌是 Intel 公司或其子公司在美國及/或其它國家的商標。"
+        },
+        {
+          "paragraph": "*其他名稱與品牌可能業經宣告為他人之財產。"
+        },
+        {
+          "paragraph": "© Intel 公司"
+        }
+      ],
+      "recommendation_title": "推薦給您",
+      "recommendation_reasoning_title": "我們推薦這些產品因為您選擇了",
+      "recommendation_button": "檢視推薦的裝置",
+      "recommendation_button_subtitle": "為您推薦的項目已就緒！",
+      "pre_recommendation_title": "目前推薦給您的項目",
+      "pre_recommendation_content": "快要完成了！為獲得最佳結果，請多回答幾個問題。",
+      "pre_recommendation_button": "請參閱推薦項目",
+      "pre_recommendation_close_button": "改善推薦項目",
+      "product_button": "檢視產品",
+      "product_price_label": "參考價格",
+      "start_button": "立即開始",
+      "next_button": "繼續",
+      "modal_button": "進一步瞭解",
+      "powered_by_title": "這些產品都搭載",
+      "powered_by_button": "更多資訊",
+      "view_all_title": "顯示這款處理器與其他款的比較結果",
+      "view_all_button": "檢視全部",
+      "wim_messaging": "處理器賦予電腦智慧 Intel 造就無限可能。",
+      "restart_title": "需要新的推薦項目嗎？",
+      "restart_button": "從頭開始",
+      "products_tab": "產品",
+      "summary_tab": "摘要",
+      "meta_description": "哪一款電腦最適合您？查看為您推薦的產品了解更多！",
+      "powered_by_celeron": "Intel® Celeron® 處&#xfeff;理&#xfeff;器",
+      "powered_by_pentium": "Intel® Pentium® 處&#xfeff;理&#xfeff;器",
+      "powered_by_i3": "Intel® Core™ i3 處&#xfeff;理&#xfeff;器",
+      "powered_by_i5": "Intel® Core™ i5 處&#xfeff;理&#xfeff;器",
+      "powered_by_i7": "Intel® Core™ i7 處&#xfeff;理&#xfeff;器",
+      "powered_by_i9": "Intel® Core™ i9 處理器",
+      "pentium": "assets/images/pentium.png",
+      "celeron": "assets/images/celeron.png",
+      "i3": "assets/images/i3.png",
+      "i5": "assets/images/i5.png",
+      "i7": "assets/images/i7.png",
+      "i9": "assets/images/i9.png",
+      "tagline": "選擇 Intel",
+      "html_lang": "zh-Hant",
+      "analytics_lang": "tw-zh",
+      "downsell_messaging": "我們無法為您找到精確配對的產品，但是有些類似的產品您可能會感興趣。",
+      "iframe_offset_desktop": "0",
+      "iframe_offset_mobile": "0",
+      "iframe_offset_breakpoint": "0",
+      "demo_mode": false,
+      "demo_mode_dialog": "這個按鈕會帶您前往可自定的產品網址！",
+      "retailer_logo": "",
+      "display_chromebook": false,
+      "minimum_chromebook_quantity": 1,
+      "minimum_form_factor_quantity": 1,
+      "minimum_api_quantity": 9,
+      "localized_api_data": false,
+      "skip_form_factor": false,
+      "skip_form_factor_to": "Notebook"
+    }
+  ]
+}

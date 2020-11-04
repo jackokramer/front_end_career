@@ -1,0 +1,23 @@
+/* Language-specific styles for Japanese */
+.slide header .slide-instructions h1{
+    color:#fff;
+    margin:inherit;
+    width:50%
+}
+@media only screen and (max-width:968px){
+    .sidebar .powered-by-text{
+        max-width:10rem
+    }
+}
+
+.slide.slide-start header .slide-instructions h1 {
+    width: 44%;
+}
+
+.slide.slide-start .slide-content p {
+    font-size: 1.12rem;
+}
+
+.desktop-layout {
+    line-height: 1.4;
+}

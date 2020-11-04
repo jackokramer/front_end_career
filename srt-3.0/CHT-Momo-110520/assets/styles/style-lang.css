@@ -1,0 +1,22 @@
+/* Language-specific styles for Chinese Traditional */
+.slide.slide-start header .slide-instructions h1{
+    width:55%
+}
+@media only screen and (max-width:968px){.slide.slide-form_factor .column-block .button{margin-top:0;width:40%;text-align:right;-ms-flex-pack:center;justify-content:center}}
+@media only screen and (max-width:968px){.slide.slide-form_factor .thumbnail{padding:.25rem .625rem;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-direction:row;flex-direction:row;width:60%;height:auto;min-height:3.4375rem}}
+@media only screen and (max-width:968px){.slide .slide-inner-content .button{margin-top:0;width:40%;text-align:right;-ms-flex-pack:center;justify-content:center}}
+@media only screen and (max-width:968px){.slide .slide-inner-content .thumbnail{padding:.25rem .625rem;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-direction:row;flex-direction:row;width:60%;height:auto;min-height:0}}
+.slide header .slide-instructions h1{
+    width:50%
+}
+@media only screen and (max-width:968px){
+    .slide.slide-start .slide-content h1{
+        max-width:22.75rem;
+	    font-size: 2.1rem;
+    }
+}
+@media only screen and (max-width:968px){
+    .sidebar .powered-by-text{
+        max-width:10rem;
+    }
+}

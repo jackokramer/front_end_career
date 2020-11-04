@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/2blue/media/photo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 18.7007118 33.84 18.7007118 33.84 0 0 0"></polygon>
+    </defs>
+    <g id="icon/2blue/media/photo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(18.000000, 27.000000)">
+            <g id="photo-icon" transform="translate(8.000000, 8.000000)">
+                <path d="M15.1522388,9.59463221 L9.18250904,4.42911596 L3.53552239,9.29086403 L3.53552239,14.7605319 L9.02117819,14.7605319 C9.02117819,14.912301 15.1522388,9.59463221 15.1522388,9.59463221" id="Fill-1" fill="#003C71"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M1.91542457,16.8461493 L32.0841874,16.8461493 L32.0841874,1.70010017 L1.91542457,1.70010017 L1.91542457,16.8461493 Z M0,18.7007118 L33.84,18.7007118 L33.84,0 L0,0 L0,18.7007118 Z" id="Fill-3" fill="#00AEEF" mask="url(#mask-2)"></path>
+                <path d="M25.3089587,8.80878684 C26.5993811,8.80878684 27.7283582,7.6721112 27.7283582,6.3728894 C27.7283582,5.07374956 26.4381801,3.93699196 25.1477577,3.93699196 C23.8572539,3.93699196 22.7283582,4.91153127 22.7283582,6.3728894 C22.7283582,7.83449344 24.0186992,8.80878684 25.3089587,8.80878684" id="Fill-5" fill="#003C71" mask="url(#mask-2)"></path>
+                <polygon id="Fill-6" fill="#003C71" mask="url(#mask-2)" points="28.2841791 15.2558439 20.2030251 7.87398393 12.121791 15.2558439"></polygon>
+            </g>
+            <rect id="Rectangle-11" fill="#00AEEF" x="0" y="0" width="36" height="2"></rect>
+            <rect id="Rectangle-11-Copy" fill="#00AEEF" x="4" y="4" width="36" height="2"></rect>
+            <rect id="Rectangle-11" fill="#00AEEF" x="0" y="0" width="2" height="21"></rect>
+            <rect id="Rectangle-11-Copy-2" fill="#00AEEF" x="4" y="4" width="2" height="21"></rect>
+        </g>
+    </g>
+</svg>

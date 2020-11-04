@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#00AEEF;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st3{mask:url(#mask-2_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#00AEEF;}
+</style>
+<g>
+	<title>Group 6</title>
+	<desc>Created with Sketch.</desc>
+	<g id="Page-3">
+		<g id="D-chart-E-Copy" transform="translate(-80.000000, -463.000000)">
+			<g id="Group-6" transform="translate(80.000000, 463.000000)">
+				<path id="Fill-1_1_" class="st0" d="M25.4,45.6h29.3c0.1,0,0.1-0.1,0.1-0.1v-15c0-0.1-0.1-0.1-0.1-0.1H25.4
+					c-0.1,0-0.1,0.1-0.1,0.1v15C25.3,45.6,25.3,45.6,25.4,45.6 M56.5,47.6H23.5c-0.1,0-0.2-0.1-0.2-0.2V28.7c0-0.1,0.1-0.2,0.2-0.2
+					h32.9c0.1,0,0.2,0.1,0.2,0.2v18.7C56.7,47.5,56.6,47.6,56.5,47.6"/>
+				<g id="Group-5" transform="translate(0.000000, 13.727850)">
+					<g id="Clip-4">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="21.8" y="35.8" width="36.4" height="2">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="21.8" y="35.8" width="36.4" height="2" id="mask-2_2_">
+						<g class="st1">
+							<polygon id="path-1_2_" class="st2" points="21.8,35.8 58.2,35.8 58.2,37.8 21.8,37.8 							"/>
+						</g>
+					</mask>
+					<path id="Fill-3" class="st3" d="M57.7,37.8H22.3c-0.3,0-0.5-0.2-0.5-0.5V36c0-0.1,0.1-0.1,0.1-0.1h36.2c0.1,0,0.1,0.1,0.1,0.1
+						v1.4C58.2,37.6,58,37.8,57.7,37.8"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

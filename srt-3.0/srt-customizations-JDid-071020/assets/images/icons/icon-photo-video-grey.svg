@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/white/media/video edit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/white/media/video-edit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="video-editing" transform="translate(18.358696, 28.500000)" fill="#BBBBBB" fill-rule="nonzero">
+            <rect id="Rectangle-path" x="5.58686311" y="4.44172968" width="2.3943699" height="2.22086484"></rect>
+            <rect id="Rectangle-path" x="5.58686311" y="15.5460539" width="2.3943699" height="2.22086484"></rect>
+            <rect id="Rectangle-path" x="5.58686311" y="11.8446125" width="2.3943699" height="2.22086484"></rect>
+            <rect id="Rectangle-path" x="5.58686311" y="8.14317108" width="2.3943699" height="2.22086484"></rect>
+            <rect id="Rectangle-path" x="34.319302" y="4.44172968" width="2.3943699" height="2.22086484"></rect>
+            <rect id="Rectangle-path" x="34.319302" y="15.5460539" width="2.3943699" height="2.22086484"></rect>
+            <rect id="Rectangle-path" x="34.319302" y="11.8446125" width="2.3943699" height="2.22086484"></rect>
+            <rect id="Rectangle-path" x="34.319302" y="8.14317108" width="2.3943699" height="2.22086484"></rect>
+            <polygon id="Shape" points="24.7418224 11.1071935 18.3568359 7.4028828 18.3568359 14.8057656"></polygon>
+            <rect id="Rectangle-path" transform="translate(42.699597, 19.247495) rotate(-45.000010) translate(-42.699597, -19.247495) " x="32.7230554" y="17.7669187" width="19.9530825" height="2.96115312"></rect>
+            <polygon id="Shape" points="32.7230554 28.8712429 35.9155486 27.8630181 33.8101557 25.9100898"></polygon>
+            <polygon id="Shape" points="36.5566538 20.0282417 2.37094138 20.0282417 2.37094138 2.18050793 39.9295936 2.18050793 39.9295936 16.9262156 42.300535 14.7457077 42.300535 0 0 0 0 22.2086484 34.1858225 22.2086484"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/2blue/education/professional</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/2blue/education/professional" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(26.000000, 19.000000)">
+            <path d="M6.4833395,29.9995229 L9.30599067,29.9995229 L5.82265116,42.9995229 L3,42.9995229 L6.4833395,29.9995229 Z M12.6461709,6.99952286 L14.4934671,0.105319674 L14.4934315,4.61852778e-14 L14.5075595,0.052726196 L14.5216874,4.61852778e-14 L14.5665739,0.272971181 L16.368948,6.99952286 L12.6461709,6.99952286 Z M22.5317795,29.9995229 L26.015119,42.9995229 L23.1924678,42.9995229 L19.7091283,29.9995229 L22.5317795,29.9995229 Z" id="Combined-Shape-Copy" fill="#003C71"></path>
+            <path d="M2.016,11.0571429 L2.016,26.9428571 L25.984,26.9428571 L25.984,11.0571429 L2.016,11.0571429 Z M0,9 L28,9 L28,29 L0,29 L0,9 Z" id="Rectangle-6-Copy-4" fill="#00AEEF" fill-rule="nonzero"></path>
+            <polygon id="Line-2-Copy-3" fill="#00AEEF" fill-rule="nonzero" points="10 15 10 14 24 14 24 15"></polygon>
+            <polygon id="Line-2-Copy-4" fill="#00AEEF" fill-rule="nonzero" points="10 19 10 18 24 18 24 19"></polygon>
+            <polygon id="Line-2-Copy-5" fill="#00AEEF" fill-rule="nonzero" points="10 23 10 22 24 22 24 23"></polygon>
+            <circle id="Oval-5-Copy-3" fill="#00AEEF" cx="6" cy="15" r="1"></circle>
+            <circle id="Oval-5-Copy-4" fill="#00AEEF" cx="6" cy="19" r="1"></circle>
+            <circle id="Oval-5-Copy-5" fill="#00AEEF" cx="6" cy="23" r="1"></circle>
+        </g>
+    </g>
+</svg>

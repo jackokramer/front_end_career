@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="27px" viewBox="0 0 26 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="back/square/blue" transform="translate(-8.000000, -8.000000)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group" transform="translate(9.000000, 9.000000)">
+                <polyline id="Rectangle" transform="translate(9.701815, 12.404386) rotate(45.000000) translate(-9.701815, -12.404386) " points="12.947933 15.6894375 6.45569718 15.6894375 6.45569718 9.11933373"></polyline>
+                <ellipse id="Oval-2" cx="11.9259259" cy="12.0689655" rx="11.9259259" ry="12.0689655"></ellipse>
+                <path d="M6.81481481,12.2844828 L17.8888889,12.2844828" id="Line-3" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

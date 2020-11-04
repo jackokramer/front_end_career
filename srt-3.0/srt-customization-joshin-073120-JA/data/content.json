@@ -1,0 +1,1950 @@
+{
+  "content": [
+    {
+      "site_title": "インテル® ショッパー レコメンデーション ツール",
+      "entry_screen_title": "最適な PC を見つけるお手伝いをいたします",
+      "entry_screen": [
+        {
+          "icon": "assets/images/icons/icon-start-01.svg",
+          "content": "欲しいデバイスのタイプを選択してください"
+        },
+        {
+          "icon": "assets/images/icons/icon-start-02.svg",
+          "content": "新しいデバイスを何に利用したいか教えてください"
+        },
+        {
+          "icon": "assets/images/icons/icon-start-03.svg",
+          "content": "選んでいただいた回答をもとに、おすすめの製品をご提案します"
+        }
+      ],
+      "form_factor_choice_title": "ご希望のデバイスタイプ",
+      "form_factor_choice_subtitle": "下記のカテゴリーから 1 つ選択してください",
+      "form_factor": [
+        {
+          "title": "ノートブック PC、2 in 1、Chromebook<sup>*</sup>",
+          "title_fallback": "ノートブック PC と 2 in 1",
+          "sub_title": "PC でどのようなことをしたいですか？",
+          "id": "Notebook",
+          "image": "assets/images/laptop-two-in-one.png",
+          "icon": "assets/images/icons/icon-Notebook.svg",
+          "usage_categories": [
+            {
+              "title": "生産性",
+              "id": "Notebook_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "メールやウェブ・ブ&#xfeff;ラ&#xfeff;ウ&#xfeff;ジ&#xfeff;ン&#xfeff;グ",
+                  "id": "Notebook_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "ソーシャルメディアのチェック、友人とのチ&#xfeff;ャ&#xfeff;ッ&#xfeff;ト、オンライン・ショッピング、ニュースの閲&#xfeff;覧&#xfeff;な&#xfeff;ど。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "自宅での事務作業",
+                  "id": "Notebook_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "スケジュールや家計簿の管理、グリーティング・カ&#xfeff;ー&#xfeff;ドの作成、やることリストの管理など。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "中小規模ビジネスの業&#xfeff;務",
+                  "id": "Notebook_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "共有ドキュメントでのコラボレーシ&#xfeff;ョ&#xfeff;ン、表計算シ&#xfeff;ー&#xfeff;トや報告書の準&#xfeff;備、給与管理など。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "総合的なビ&#xfeff;ジ&#xfeff;ネ&#xfeff;ス・ア&#xfeff;プ&#xfeff;リ&#xfeff;ケ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン",
+                  "id": "Notebook_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "データベースの検索、3D オブジェクトのレンダリング、エンタープライズ・レベルのソフトウェアの使用など。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "エンターテインメント",
+              "id": "Notebook_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "音楽を聴く",
+                  "id": "Notebook_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "お気に入りの音楽やポッドキャストを 1 曲ずつ、ま&#xfeff;たはプレイリストで再生できます。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "テレビや映画の視聴",
+                  "id": "Notebook_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "リビングでくつろぎながら、お気に入りの番組を HD で一気に視聴できます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "4K ビデオ・ストリーミング",
+                  "id": "Notebook_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "細部からあらゆる角度まで鮮明に映し出す大迫力の最新 4K ビデオを、ストリーミング視聴できます。",
+                      "caption": "4K ディスプレイを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "VR や 360 度のエンターテインメント",
+                  "id": "Notebook_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "仮想現実による革新的な没入体験で、 日常から離&#xfeff;れ&#xfeff;た新しい世界を探検できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "写真とビデオ",
+              "id": "Notebook_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "オンラインでの写&#xfeff;真&#xfeff;の&#xfeff;整&#xfeff;理",
+                  "id": "Notebook_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "写真をアルバムに整理し、人物や場所にタグ付&#xfeff;け&#xfeff;し&#xfeff;て、ソーシャルメディアに投稿したりス&#xfeff;タ&#xfeff;イ&#xfeff;リ&#xfeff;ッ&#xfeff;シ&#xfeff;ュなスライドショーを作成したりで&#xfeff;き&#xfeff;ま&#xfeff;す。",
+                      "caption": "Chromebook<sup>*</sup> が最適です",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "手軽に写真編集",
+                  "id": "Notebook_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "家族や友人の写真、あるいは最近の休暇中に撮影した写真に修正や補正を加えて、素敵な思い出をさらに輝かしいものにしましょう。",
+                      "caption": "Windows<sup>*</sup> Ink を試してみてください",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "ビデオ編集",
+                  "id": "Notebook_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "最も大切な体験を切り取った魅力的なハイライトシ&#xfeff;ー&#xfeff;ンを作成できます。",
+                      "caption": "500GB 以上のストレージを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5",
+                  "hdd": "500"
+                },
+                {
+                  "title": "プロ向けのメディア・ア&#xfeff;プ&#xfeff;リ&#xfeff;ケ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン",
+                  "id": "Notebook_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "効果的なソフトウェア・ツールを使って、4K ビデオやグラフィック・デ&#xfeff;ザ&#xfeff;イ&#xfeff;ンなどの美しいアート作品を創&#xfeff;作できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "教育",
+              "id": "Notebook_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "小学校",
+                  "id": "Notebook_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "低学年の児童でも、クラスメートとのコ&#xfeff;ラ&#xfeff;ボ&#xfeff;レ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン&#xfeff;や、テクノロジーの学習に活用で&#xfeff;き&#xfeff;ま&#xfeff;す。",
+                      "caption": "Chromebook<sup>*</sup> が最適です",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "中学校、高校",
+                  "id": "Notebook_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "デバイスにインストール済みのソフトウェアを使&#xfeff;っ&#xfeff;てレ&#xfeff;ポ&#xfeff;ー&#xfeff;トを書いたり、オンラインで調べものをしたりできます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "短大、大学",
+                  "id": "Notebook_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "講義のノートを取ったり、論文を書いたりするだけでなく、ビ&#xfeff;ジ&#xfeff;ネ&#xfeff;ス向けのソフトウェアも活用できます。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "専門カリキュラム",
+                  "id": "Notebook_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "ウェブサイトの作成、4K ビデオの編集、アプリの構&#xfeff;築など、専門的なソフトウェア・ツールの使い方を学習できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "ゲーム",
+              "id": "Notebook_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "パズル、ソーシャルゲ&#xfeff;ー&#xfeff;ム",
+                  "id": "Notebook_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "誰が最初にブロックを消したりクロスワードを解けるか、仲間との対戦ゲームを楽しめます。"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "ベーシックな 1 人プ&#xfeff;レ&#xfeff;イ用ゲーム",
+                  "id": "Notebook_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "ゲームのファンタスティックで新しい世界観を家族みんなで楽しめます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "オンラインゲーム",
+                  "id": "Notebook_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "世界中で人気の高いマルチプレイヤー・ゲームで、対戦相手に挑戦してください。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "本格的なゲームと VR",
+                  "id": "Notebook_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "仮想現実を使用していてもゲームプレイ中でも、さらにストリーミングや録画をすべて同時に実行していても、ドロップフレームの心配はありません。",
+                      "caption": "ディスクリート・グラフィックス・カードを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9",
+                  "ram": "16"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "ノートブック PC、2 in 1、Chromebook<sup>*</sup>",
+              "id": "sj_Notebook",
+              "image": "assets/images/laptop-two-in-one-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "外出先でも仕事や趣味に使えるノートブック PC は、長時間バッテリーとスタイリッシュな軽量設計を特長としています。"
+                },
+                {
+                  "paragraph": "2 in 1 は、ノートブック PC のパフォーマンスをフル装備しているだけでなく 、タブレットの携帯性も兼ね備えたデバイスです。"
+                },
+                {
+                  "paragraph": "Chromebook<sup>*</sup> は自動的に更新され、最小限の手間でデバイスを最新の状態に保ちます。"
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "インテル® Core™ i9 プロセッサー",
+              "id": "Notebook_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "妥協のないゲーム、ストリーミング、録画体験を実現し、クリエイティブ活動の無限の可能性を解き放ちます。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i7 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Notebook_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "要件の厳しいアプリケーションにも、最高のパフォーマンスをもたらす高速プロセッサー。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_complex-business-applications"
+                },
+                {
+                  "id": "Notebook_vr-360-entertainment"
+                },
+                {
+                  "id": "Notebook_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i5 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Notebook_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "最先端の性能と応答性により、待ち時間が短縮されるので、仕事と遊びどちらの場合でも長時間の作業が可能になります。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_small-midsize-business-programs"
+                },
+                {
+                  "id": "Notebook_4k-video-streaming"
+                },
+                {
+                  "id": "Notebook_video-editing"
+                },
+                {
+                  "id": "Notebook_college-university"
+                },
+                {
+                  "id": "Notebook_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i3 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Notebook_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "簡単なファイル作成やフル画面のビデオ・ストリーミングなど、日常的な作業をシームレスに実行できるパフォーマンスを提供します。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_home-office-tasks"
+                },
+                {
+                  "id": "Notebook_basic-single-player-games"
+                },
+                {
+                  "id": "Notebook_watching-tv-movies"
+                },
+                {
+                  "id": "Notebook_simple-photo-editing"
+                },
+                {
+                  "id": "Notebook_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Pentium® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Notebook_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "驚きの価格とパフォーマンスで、オンライン、オフラインど&#xfeff;ち&#xfeff;らの作業も効率化を図れます。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_organizing-photos-online"
+                },
+                {
+                  "id": "Notebook_elementary-school"
+                },
+                {
+                  "id": "Notebook_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Celeron® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Notebook_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "基本的な機能を手ごろな価格で手に入れたいユーザーに最適な選択肢です。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_email-web-browsing"
+                },
+                {
+                  "id": "Notebook_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "プロセッサー",
+                  "subtitle": "(PC の頭脳)",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "メモリー",
+                  "subtitle": "(複数のプログラムを同時に実行)",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "最大 4GB",
+                  "subtitle": "(1 ～ 3 つのプログラムの同時実行向け)"
+                },
+                {
+                  "title": "最大 8GB",
+                  "subtitle": "(4 ～ 6 つのプログラムの同時実行向け)"
+                },
+                {
+                  "title": "最大 16GB",
+                  "subtitle": "(7 つ以上のプログラムの同時実\uFEFF行\uFEFF向\uFEFFけ)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "ストレージ",
+                  "subtitle": "(ファイルを PC に保存)",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "最大 500GB HDD",
+                  "subtitle": "(最大 100 時間のビデオ再生に対応)"
+                },
+                {
+                  "title": "最大 1TB HDD および / または 128/256GB SSD"
+                },
+                {
+                  "title": "500GB HDD + SSD",
+                  "subtitle": "(高速ブーストと高速データア\uFEFFク\uFEFFセ\uFEFFスに対応)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "画面",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "最大 1920 x 1080 ピクセル (HD)"
+                },
+                {
+                  "title": "最大 1920 x 1080 ピクセル (HD)"
+                },
+                {
+                  "title": "最大 3840 x 2160 ピクセル (4K ウルトラ HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "グラフィックス",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "内蔵グラフィックス"
+                },
+                {
+                  "title": "内蔵グラフィックスまたはエントリーレベルのデ\uFEFFィ\uFEFFス\uFEFFク\uFEFFリ\uFEFFー\uFEFFト・グ\uFEFFラ\uFEFFフ\uFEFFィ\uFEFFッ\uFEFFク\uFEFFス"
+                },
+                {
+                  "title": "ディスクリート・グラフィックスまたはハイエンドの内蔵グラフィックス"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "インテル® WiFi 6 (Gig+)",
+                  "subtitle": "PC、ホームルーター向け WiFi の次の進化",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "前世代の WiFi に比べて、高速の転送速度、低遅延、セキュリティーの強化を実現"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "インテル&#xfeff;® Optane™ メ&#xfeff;モ&#xfeff;リ&#xfeff;ー",
+                  "subtitle": "PC の応答性を向上",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "インテル® Optane™ メモリーとハードディスク・ドライブの組み合わせが、大容量ファイルの展開やアプリの起動に加え、PC の起動も高速化"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Thunderbolt™ 3 テクノロジー",
+                  "subtitle": "USB&#8209;C* にスピードと柔軟性を提供",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "1 本でドッグ、モニター、ストレージ、外付けグラフィックスなどさまざまな機器に接続でき、同時に充電も可能な小型ケーブル"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "インテル検証済み",
+                  "subtitle": "ノートブック PC 革新の新たな時代",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "すべての検証済みノートブック PC は、高速な応答性、信頼できるバッテリー持続時間および即時のレジュームについてインテルが設定する高度な基準を満たしています"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "デスクトップ PC、ミ&#xfeff;ニ PC、&#xfeff;一&#xfeff;体&#xfeff;型 PC",
+          "sub_title": "PC でどのようなことをしたいですか？",
+          "id": "Desktop",
+          "image": "assets/images/desktop-all-in-one.png",
+          "icon": "assets/images/icons/icon-Desktop.svg",
+          "usage_categories": [
+            {
+              "title": "生産性",
+              "id": "Desktop_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "メールやウェブ・ブ&#xfeff;ラ&#xfeff;ウ&#xfeff;ジ&#xfeff;ン&#xfeff;グ",
+                  "id": "Desktop_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "ソーシャルメディアのチェック、友人とのチ&#xfeff;ャ&#xfeff;ッ&#xfeff;ト、オンライン・ショッピング、ニュースの閲&#xfeff;覧&#xfeff;な&#xfeff;ど。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "自宅での事務作業",
+                  "id": "Desktop_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "スケジュールや家計簿の管理、グリーティング・カ&#xfeff;ー&#xfeff;ドの作成、やることリストの管理など。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "中小規模ビジネスの業&#xfeff;務",
+                  "id": "Desktop_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "共有ドキュメントでのコラボレーシ&#xfeff;ョ&#xfeff;ン、表計算シ&#xfeff;ー&#xfeff;トや報告書の準&#xfeff;備、給与管理など。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "総合的なビ&#xfeff;ジ&#xfeff;ネ&#xfeff;ス・ア&#xfeff;プ&#xfeff;リ&#xfeff;ケ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン",
+                  "id": "Desktop_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "データベースの検索、3D オブジェクトのレンダリング、エンタープライズ・レベルのソフトウェアの使用など。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "エンターテインメント",
+              "id": "Desktop_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "音楽を聴く",
+                  "id": "Desktop_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "お気に入りの音楽やポッドキャストを 1 曲ずつ、ま&#xfeff;たはプレイリストで再生できます。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "テレビや映画の視聴",
+                  "id": "Desktop_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "リビングでくつろぎながら、お気に入りの番組を HD で一気に視聴できます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "4K ビデオ・ストリーミング",
+                  "id": "Desktop_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "細部からあらゆる角度まで鮮明に映し出す大迫力の最新 4K ビデオを、ストリーミング視聴できます。",
+                      "caption": "4K ディスプレイを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "VR や 360 度のエンターテインメント",
+                  "id": "Desktop_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "仮想現実による革新的な没入体験で、 日常から離&#xfeff;れ&#xfeff;た新しい世界を探検できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "写真とビデオ",
+              "id": "Desktop_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "オンラインでの写&#xfeff;真&#xfeff;の&#xfeff;整&#xfeff;理",
+                  "id": "Desktop_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "写真をアルバムに整理し、人物や場所にタグ付&#xfeff;け&#xfeff;し&#xfeff;て、ソーシャルメディアに投稿したりス&#xfeff;タ&#xfeff;イ&#xfeff;リ&#xfeff;ッ&#xfeff;シ&#xfeff;ュなスライドショーを作成したりで&#xfeff;き&#xfeff;ま&#xfeff;す。",
+                      "caption": "Chromebook<sup>*</sup> が最適です",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "手軽に写真編集",
+                  "id": "Desktop_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "家族や友人の写真、あるいは最近の休暇中に撮影した写真に修正や補正を加えて、素敵な思い出をさらに輝かしいものにしましょう。",
+                      "caption": "Windows<sup>*</sup> Ink を試してみてください",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "ビデオ編集",
+                  "id": "Desktop_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "最も大切な体験を切り取った魅力的なハイライトシ&#xfeff;ー&#xfeff;ンを作成できます。",
+                      "caption": "500GB 以上のストレージを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5",
+                  "hdd": "500"
+                },
+                {
+                  "title": "プロ向けのメディア・ア&#xfeff;プ&#xfeff;リ&#xfeff;ケ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン",
+                  "id": "Desktop_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "効果的なソフトウェア・ツールを使って、4K ビデオやグラフィック・デ&#xfeff;ザ&#xfeff;イ&#xfeff;ンなどの美しいアート作品を創&#xfeff;作できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "教育",
+              "id": "Desktop_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "小学校",
+                  "id": "Desktop_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "低学年の児童でも、クラスメートとのコ&#xfeff;ラ&#xfeff;ボ&#xfeff;レ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン&#xfeff;や、テクノロジーの学習に活用で&#xfeff;き&#xfeff;ま&#xfeff;す。",
+                      "caption": "Chromebook<sup>*</sup> が最適です",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "中学校、高校",
+                  "id": "Desktop_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "デバイスにインストール済みのソフトウェアを使&#xfeff;っ&#xfeff;てレ&#xfeff;ポ&#xfeff;ー&#xfeff;トを書いたり、オンラインで調べものをしたりできます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "短大、大学",
+                  "id": "Desktop_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "講義のノートを取ったり、論文を書いたりするだけでなく、ビ&#xfeff;ジ&#xfeff;ネ&#xfeff;ス向けのソフトウェアも活用できます。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "専門カリキュラム",
+                  "id": "Desktop_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "ウェブサイトの作成、4K ビデオの編集、アプリの構&#xfeff;築など、専門的なソフトウェア・ツールの使い方を学習できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "ゲーム",
+              "id": "Desktop_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "パズル、ソーシャルゲ&#xfeff;ー&#xfeff;ム",
+                  "id": "Desktop_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "誰が最初にブロックを消したりクロスワードを解けるか、仲間との対戦ゲームを楽しめます。"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "ベーシックな 1 人プ&#xfeff;レ&#xfeff;イ用ゲーム",
+                  "id": "Desktop_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "ゲームのファンタスティックで新しい世界観を家族みんなで楽しめます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "オンラインゲーム",
+                  "id": "Desktop_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "世界中で人気の高いマルチプレイヤー・ゲームで、対戦相手に挑戦してください。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "本格的なゲームと VR",
+                  "id": "Desktop_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "仮想現実を使用していてもゲームプレイ中でも、さらにストリーミングや録画をすべて同時に実行していても、ドロップフレームの心配はありません。",
+                      "caption": "ディスクリート・グラフィックス・カードを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9",
+                  "ram": "16"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "デスクトップ PC、ミ&#xfeff;ニ PC、&#xfeff;一&#xfeff;体&#xfeff;型 PC",
+              "id": "sj_Desktop",
+              "image": "assets/images/desktop-all-in-one-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "さまざまなスタイルや設定を取り揃えているデスクトップ PC なら、ニーズに合った 1 台を選んで、臨場感あふれる HD グラフィックスを体験できます。"
+                },
+                {
+                  "paragraph": "ミニ PC は、デスクの引き出しに入るほどコンパクトでありながら、デスクトップと同等の機能を備えたパソコンです。"
+                },
+                {
+                  "paragraph": "一体型 PC は、大画面のタッチスクリーンを備え、設置も簡単です。"
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "インテル® Core™ i9 プロセッサー",
+              "id": "Desktop_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "妥協のないゲーム、ストリーミング、録画体験を実現し、クリエイティブ活動の無限の可能性を解き放ちます。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i7 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Desktop_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "要件の厳しいアプリケーションにも、最高のパフォーマンスをもたらす高速プロセッサー。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_complex-business-applications"
+                },
+                {
+                  "id": "Desktop_vr-360-entertainment"
+                },
+                {
+                  "id": "Desktop_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i5 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Desktop_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "最先端の性能と応答性により、待ち時間が短縮されるので、仕事と遊びどちらの場合でも長時間の作業が可能になります。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_small-midsize-business-programs"
+                },
+                {
+                  "id": "Desktop_4k-video-streaming"
+                },
+                {
+                  "id": "Desktop_video-editing"
+                },
+                {
+                  "id": "Desktop_college-university"
+                },
+                {
+                  "id": "Desktop_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i3 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Desktop_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "簡単なファイル作成やフル画面のビデオ・ストリーミングなど、日常的な作業をシームレスに実行できるパフォーマンスを提供します。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_home-office-tasks"
+                },
+                {
+                  "id": "Desktop_basic-single-player-games"
+                },
+                {
+                  "id": "Desktop_watching-tv-movies"
+                },
+                {
+                  "id": "Desktop_simple-photo-editing"
+                },
+                {
+                  "id": "Desktop_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Pentium® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Desktop_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "驚きの価格とパフォーマンスで、オンライン、オフラインど&#xfeff;ち&#xfeff;らの作業も効率化を図れます。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_organizing-photos-online"
+                },
+                {
+                  "id": "Desktop_elementary-school"
+                },
+                {
+                  "id": "Desktop_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Celeron® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Desktop_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "基本的な機能を手ごろな価格で手に入れたいユーザーに最適な選択肢です。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_email-web-browsing"
+                },
+                {
+                  "id": "Desktop_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "プロセッサー",
+                  "subtitle": "(PC の頭脳)",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "メモリー",
+                  "subtitle": "(複数のプログラムを同時に実行)",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "最大 4GB",
+                  "subtitle": "(1 ～ 3 つのプログラムの同時実行向け)"
+                },
+                {
+                  "title": "最大 8GB",
+                  "subtitle": "(4 ～ 6 つのプログラムの同時実行向け)"
+                },
+                {
+                  "title": "最大 16GB",
+                  "subtitle": "(7 つ以上のプログラムの同時実\uFEFF行\uFEFF向\uFEFFけ)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "ストレージ",
+                  "subtitle": "(ファイルを PC に保存)",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "最大 500GB HDD",
+                  "subtitle": "(最大 100 時間のビデオ再生に対応)"
+                },
+                {
+                  "title": "最大 1TB HDD および / または 128/256GB SSD"
+                },
+                {
+                  "title": "500GB HDD + SSD",
+                  "subtitle": "(高速ブーストと高速データア\uFEFFク\uFEFFセ\uFEFFスに対応)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "画面",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "最大 1920 x 1080 ピクセル (HD)"
+                },
+                {
+                  "title": "最大 1920 x 1080 ピクセル (HD)"
+                },
+                {
+                  "title": "最大 3840 x 2160 ピクセル (4K ウルトラ HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "グラフィックス",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "内蔵グラフィックス"
+                },
+                {
+                  "title": "内蔵グラフィックスまたはエントリーレベルのデ\uFEFFィ\uFEFFス\uFEFFク\uFEFFリ\uFEFFー\uFEFFト・グ\uFEFFラ\uFEFFフ\uFEFFィ\uFEFFッ\uFEFFク\uFEFFス"
+                },
+                {
+                  "title": "ディスクリート・グラフィックスまたはハイエンドの内蔵グラフィックス"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "インテル® WiFi 6 (Gig+)",
+                  "subtitle": "PC、ホームルーター向け WiFi の次の進化",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "前世代の WiFi に比べて、高速の転送速度、低遅延、セキュリティーの強化を実現"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "インテル&#xfeff;® Optane™ メ&#xfeff;モ&#xfeff;リ&#xfeff;ー",
+                  "subtitle": "PC の応答性を向上",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "インテル® Optane™ メモリーとハードディスク・ドライブの組み合わせが、大容量ファイルの展開やアプリの起動に加え、PC の起動も高速化"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Thunderbolt™ 3 テクノロジー",
+                  "subtitle": "USB&#8209;C* にスピードと柔軟性を提供",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "1 本でドッグ、モニター、ストレージ、外付けグラフィックスなどさまざまな機器に接続でき、同時に充電も可能な小型ケーブル"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "インテル検証済み",
+                  "subtitle": "ノートブック PC 革新の新たな時代",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "すべての検証済みノートブック PC は、高速な応答性、信頼できるバッテリー持続時間および即時のレジュームについてインテルが設定する高度な基準を満たしています"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chrome* OS デバイス",
+          "sub_title": "Chrome* OS デバイスを使ってやりたいことは何ですか？",
+          "id": "Chromebook",
+          "image": "assets/images/chromebook.png",
+          "icon": "assets/images/icons/icon-Desktop.svg",
+          "usage_categories": [
+            {
+              "title": "生産性",
+              "id": "Chromebook_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "メールやウェブ・ブ&#xfeff;ラ&#xfeff;ウ&#xfeff;ジ&#xfeff;ン&#xfeff;グ",
+                  "id": "Chromebook_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "ソーシャルメディアのチェック、友人とのチ&#xfeff;ャ&#xfeff;ッ&#xfeff;ト、オンライン・ショッピング、ニュースの閲&#xfeff;覧&#xfeff;な&#xfeff;ど。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "自宅での事務作業",
+                  "id": "Chromebook_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "スケジュールや家計簿の管理、グリーティング・カ&#xfeff;ー&#xfeff;ドの作成、やることリストの管理など。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "中小規模ビジネスの業&#xfeff;務",
+                  "id": "Chromebook_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "共有ドキュメントでのコラボレーシ&#xfeff;ョ&#xfeff;ン、表計算シ&#xfeff;ー&#xfeff;トや報告書の準&#xfeff;備、給与管理など。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "総合的なビ&#xfeff;ジ&#xfeff;ネ&#xfeff;ス・ア&#xfeff;プ&#xfeff;リ&#xfeff;ケ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン",
+                  "id": "Chromebook_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "データベースの検索、3D オブジェクトのレンダリング、エンタープライズ・レベルのソフトウェアの使用など。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "エンターテインメント",
+              "id": "Chromebook_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "音楽を聴く",
+                  "id": "Chromebook_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "お気に入りの音楽やポッドキャストを 1 曲ずつ、ま&#xfeff;たはプレイリストで再生できます。"
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "テレビや映画の視聴",
+                  "id": "Chromebook_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "リビングでくつろぎながら、お気に入りの番組を HD で一気に視聴できます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "4K ビデオ・ストリーミング",
+                  "id": "Chromebook_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "細部からあらゆる角度まで鮮明に映し出す大迫力の最新 4K ビデオを、ストリーミング視聴できます。",
+                      "caption": "4K ディスプレイを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "VR や 360 度のエンターテインメント",
+                  "id": "Chromebook_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "仮想現実による革新的な没入体験で、 日常から離&#xfeff;れ&#xfeff;た新しい世界を探検できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "写真とビデオ",
+              "id": "Chromebook_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "オンラインでの写&#xfeff;真&#xfeff;の&#xfeff;整&#xfeff;理",
+                  "id": "Chromebook_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "写真をアルバムに整理し、人物や場所にタグ付&#xfeff;け&#xfeff;し&#xfeff;て、ソーシャルメディアに投稿したりス&#xfeff;タ&#xfeff;イ&#xfeff;リ&#xfeff;ッ&#xfeff;シ&#xfeff;ュなスライドショーを作成したりで&#xfeff;き&#xfeff;ま&#xfeff;す。",
+                      "caption": "Chromebook<sup>*</sup> が最適です",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "手軽に写真編集",
+                  "id": "Chromebook_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "家族や友人の写真、あるいは最近の休暇中に撮影した写真に修正や補正を加えて、素敵な思い出をさらに輝かしいものにしましょう。",
+                      "caption": "Windows<sup>*</sup> Ink を試してみてください",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "ビデオ編集",
+                  "id": "Chromebook_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "最も大切な体験を切り取った魅力的なハイライトシ&#xfeff;ー&#xfeff;ンを作成できます。",
+                      "caption": "500GB 以上のストレージを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5",
+                  "hdd": "500"
+                },
+                {
+                  "title": "プロ向けのメディア・ア&#xfeff;プ&#xfeff;リ&#xfeff;ケ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン",
+                  "id": "Chromebook_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "効果的なソフトウェア・ツールを使って、4K ビデオやグラフィック・デ&#xfeff;ザ&#xfeff;イ&#xfeff;ンなどの美しいアート作品を創&#xfeff;作できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "教育",
+              "id": "Chromebook_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "小学校",
+                  "id": "Chromebook_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "低学年の児童でも、クラスメートとのコ&#xfeff;ラ&#xfeff;ボ&#xfeff;レ&#xfeff;ー&#xfeff;シ&#xfeff;ョ&#xfeff;ン&#xfeff;や、テクノロジーの学習に活用で&#xfeff;き&#xfeff;ま&#xfeff;す。",
+                      "caption": "Chromebook<sup>*</sup> が最適です",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "中学校、高校",
+                  "id": "Chromebook_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "デバイスにインストール済みのソフトウェアを使&#xfeff;っ&#xfeff;てレ&#xfeff;ポ&#xfeff;ー&#xfeff;トを書いたり、オンラインで調べものをしたりできます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "短大、大学",
+                  "id": "Chromebook_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "講義のノートを取ったり、論文を書いたりするだけでなく、ビ&#xfeff;ジ&#xfeff;ネ&#xfeff;ス向けのソフトウェアも活用できます。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "専門カリキュラム",
+                  "id": "Chromebook_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "ウェブサイトの作成、4K ビデオの編集、アプリの構&#xfeff;築など、専門的なソフトウェア・ツールの使い方を学習できます。",
+                      "caption": "8GB 以上のメモリーを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7",
+                  "ram": "8"
+                }
+              ]
+            },
+            {
+              "title": "ゲーム",
+              "id": "Chromebook_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "パズル、ソーシャルゲ&#xfeff;ー&#xfeff;ム",
+                  "id": "Chromebook_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "誰が最初にブロックを消したりクロスワードを解けるか、仲間との対戦ゲームを楽しめます。"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "ベーシックな 1 人プ&#xfeff;レ&#xfeff;イ用ゲーム",
+                  "id": "Chromebook_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "ゲームのファンタスティックで新しい世界観を家族みんなで楽しめます。"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "オンラインゲーム",
+                  "id": "Chromebook_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "世界中で人気の高いマルチプレイヤー・ゲームで、対戦相手に挑戦してください。"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "本格的なゲームと VR",
+                  "id": "Chromebook_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "仮想現実を使用していてもゲームプレイ中でも、さらにストリーミングや録画をすべて同時に実行していても、ドロップフレームの心配はありません。",
+                      "caption": "ディスクリート・グラフィックス・カードを推奨",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9",
+                  "ram": "16"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "Chrome* OS デバイス",
+              "id": "sj_Chromebook",
+              "image": "assets/images/chromebook-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "外出先でも仕事や趣味に使えるノートブック PC は、長時間バッテリーとスタイリッシュな軽量設計を特長としています。"
+                },
+                {
+                  "paragraph": "2 in 1 は、ノートブック PC のパフォーマンスをフル装備しているだけでなく 、タブレットの携帯性も兼ね備えたデバイスです。"
+                },
+                {
+                  "paragraph": "Chromebook<sup>*</sup> は自動的に更新され、最小限の手間でデバイスを最新の状態に保ちます。"
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "インテル® Core™ i9 プロセッサー",
+              "id": "Chromebook_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "妥協のないゲーム、ストリーミング、録画体験を実現し、クリエイティブ活動の無限の可能性を解き放ちます。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i7 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Chromebook_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "要件の厳しいアプリケーションにも、最高のパフォーマンスをもたらす高速プロセッサー。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_complex-business-applications"
+                },
+                {
+                  "id": "Chromebook_vr-360-entertainment"
+                },
+                {
+                  "id": "Chromebook_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i5 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Chromebook_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "最先端の性能と応答性により、待ち時間が短縮されるので、仕事と遊びどちらの場合でも長時間の作業が可能になります。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_small-midsize-business-programs"
+                },
+                {
+                  "id": "Chromebook_4k-video-streaming"
+                },
+                {
+                  "id": "Chromebook_video-editing"
+                },
+                {
+                  "id": "Chromebook_college-university"
+                },
+                {
+                  "id": "Chromebook_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Core™ i3 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Chromebook_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "簡単なファイル作成やフル画面のビデオ・ストリーミングなど、日常的な作業をシームレスに実行できるパフォーマンスを提供します。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_home-office-tasks"
+                },
+                {
+                  "id": "Chromebook_basic-single-player-games"
+                },
+                {
+                  "id": "Chromebook_watching-tv-movies"
+                },
+                {
+                  "id": "Chromebook_simple-photo-editing"
+                },
+                {
+                  "id": "Chromebook_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Pentium® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Chromebook_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "驚きの価格とパフォーマンスで、オンライン、オフラインど&#xfeff;ち&#xfeff;らの作業も効率化を図れます。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_organizing-photos-online"
+                },
+                {
+                  "id": "Chromebook_elementary-school"
+                },
+                {
+                  "id": "Chromebook_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "インテル® Celeron® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+              "id": "Chromebook_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "基本的な機能を手ごろな価格で手に入れたいユーザーに最適な選択肢です。"
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_email-web-browsing"
+                },
+                {
+                  "id": "Chromebook_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "プロセッサー",
+                  "subtitle": "(PC の頭脳)",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "メモリー",
+                  "subtitle": "(複数のプログラムを同時に実行)",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "最大 4GB",
+                  "subtitle": "(1 ～ 3 つのプログラムの同時実行向け)"
+                },
+                {
+                  "title": "最大 8GB",
+                  "subtitle": "(4 ～ 6 つのプログラムの同時実行向け)"
+                },
+                {
+                  "title": "最大 16GB",
+                  "subtitle": "(7 つ以上のプログラムの同時実\uFEFF行\uFEFF向\uFEFFけ)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "ストレージ",
+                  "subtitle": "(ファイルを PC に保存)",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "最大 500GB HDD",
+                  "subtitle": "(最大 100 時間のビデオ再生に対応)"
+                },
+                {
+                  "title": "最大 1TB HDD および / または 128/256GB SSD"
+                },
+                {
+                  "title": "500GB HDD + SSD",
+                  "subtitle": "(高速ブーストと高速データア\uFEFFク\uFEFFセ\uFEFFスに対応)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "画面",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "最大 1920 x 1080 ピクセル (HD)"
+                },
+                {
+                  "title": "最大 1920 x 1080 ピクセル (HD)"
+                },
+                {
+                  "title": "最大 3840 x 2160 ピクセル (4K ウルトラ HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "グラフィックス",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "内蔵グラフィックス"
+                },
+                {
+                  "title": "内蔵グラフィックスまたはエントリーレベルのデ\uFEFFィ\uFEFFス\uFEFFク\uFEFFリ\uFEFFー\uFEFFト・グ\uFEFFラ\uFEFFフ\uFEFFィ\uFEFFッ\uFEFFク\uFEFFス"
+                },
+                {
+                  "title": "ディスクリート・グラフィックスまたはハイエンドの内蔵グラフィックス"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "インテル® WiFi 6 (Gig+)",
+                  "subtitle": "PC、ホームルーター向け WiFi の次の進化",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "前世代の WiFi に比べて、高速の転送速度、低遅延、セキュリティーの強化を実現"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "インテル&#xfeff;® Optane™ メ&#xfeff;モ&#xfeff;リ&#xfeff;ー",
+                  "subtitle": "PC の応答性を向上",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "インテル® Optane™ メモリーとハードディスク・ドライブの組み合わせが、大容量ファイルの展開やアプリの起動に加え、PC の起動も高速化"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Thunderbolt™ 3 テクノロジー",
+                  "subtitle": "USB&#8209;C* にスピードと柔軟性を提供",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "1 本でドッグ、モニター、ストレージ、外付けグラフィックスなどさまざまな機器に接続でき、同時に充電も可能な小型ケーブル"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "インテルによる検証",
+                  "subtitle": "ノートブック PC のイノベーションにおける新時代",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "すべての検証済みノートブック PC は、高速な応答性、信頼できるバッテリー持続時間および即時のレジュームについてインテルが設定する高度な基準を満たしています。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "usage_category_title": "PC の利用用途",
+      "usage_category_subtitle": "該当するものをすべて選択してください",
+      "usage_model_side_journey_title": "一般的な用途:",
+      "processor_comparison_side_journey_title": "インテル® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ーの比&#xfeff;較",
+      "processor_comparison_side_journey_subtitle": "それぞれのワークロードに適したプロセッサーはこちらです。下のタブを選択すると詳しい情報が表示されます。",
+      "processor_side_journeys_subtitle": "こちらのプロセッサー・ファミリーは、次のような利用用途に最適です。",
+      "device_configuration_side_journey_title": "一般的なデバイス構成",
+      "device_configuration_side_journey_subtitle": "一般的なデバイス構成とそれぞれの特長の違いについて簡単に説明します。",
+      "device_configuration_side_journey_sidebar_title": "デバイス構成の詳細情報",
+      "features_technology_side_journey_title": "PC のその他の機能とテクノロジー",
+      "features_technology_side_journey_subtitle": "ここでは、デバイスを比較する際に検討すべきその他の特徴をいくつか取り上げています。",
+      "features_technology_side_journey_button": "PC のその他の機能とテクノロジーを見る",
+      "reasoning_side_journey_title": "選択した項目",
+      "reasoning_side_journey_subtitle": "これらの製品は、以下の回答を基におすすめしています。",
+      "sharing_title": "シェア用のリンクをコ&#xfeff;ピ&#xfeff;ーする",
+      "sharing_content": [
+        {
+          "paragraph": "おすすめのデバイス情報を保存するには、こ&#xfeff;ち&#xfeff;らのリンクをコピーしてください。メ&#xfeff;ー&#xfeff;ル&#xfeff;や&#xfeff;ソ&#xfeff;ーシャルメディアでシェアす&#xfeff;る&#xfeff;こ&#xfeff;と&#xfeff;もで&#xfeff;き&#xfeff;ま&#xfeff;す。"
+        }
+      ],
+      "legal_title": "法務情報",
+      "legal_content": [
+        {
+          "paragraph": "インテル® テクノロジーの機能と利点はシステム構成によって異なり、対応するハードウェアやソフトウェア、またはサービスの有効化が必要となる場合があります。実際の性能はシステム構成によって異なります。絶対的なセキュリティーを提供できる製品やコンポーネントはありません。詳細については、各システムメーカーまたは販売店にお問い合わせいただくか、www.intel.com を参照してください。"
+        },
+        {
+          "paragraph": "Intel、インテル、Intel ロゴ、Celeron、Pentium、Intel Core、Intel Optane、Thunderbolt、Thunderbolt  ロゴは、アメリカ合衆国および / またはその他の国における Intel Corporation またはその子会社の商標です。"
+        },
+        {
+          "paragraph": "*その他の社名、製品名などは、一般に各社の表示、商標または登録商標です。"
+        },
+        {
+          "paragraph": "© Intel Corporation"
+        }
+      ],
+      "recommendation_title": "おすすめの製品",
+      "recommendation_reasoning_title": "表示されている製品は、こ\uFEFFち\uFEFFら\uFEFFの\uFEFF選\uFEFF択に基づいておすすめしてい\uFEFFま\uFEFFす。",
+      "recommendation_button": "おすすめのデバイスを見る",
+      "recommendation_button_subtitle": "おすすめの製品はこちら",
+      "pre_recommendation_title": "ここまでの回答をもとにおすすめした製品",
+      "pre_recommendation_content": "あともう少しです。最適なデバイスをご提案できるように、さらにもう少しお尋ねします。",
+      "pre_recommendation_button": "おすすめの製品を見る",
+      "pre_recommendation_close_button": "おすすめの製品をさ\uFEFFら\uFEFFに\uFEFF絞\uFEFFり\uFEFF込\uFEFFむ",
+      "product_button": "製品を表示",
+      "product_price_label": "最低価格",
+      "start_button": "スタート",
+      "next_button": "続行",
+      "modal_button": "詳細情報",
+      "powered_by_title": "こちらの製品に搭載されているプ\uFEFFロ\uFEFFセ\uFEFFッ\uFEFFサ\uFEFFー",
+      "powered_by_button": "詳細情報",
+      "view_all_title": "こちらのプロセッサーとほかのプ\uFEFFロ\uFEFFセ\uFEFFッ\uFEFFサ\uFEFFーの比\uFEFF較\uFEFFを見る",
+      "view_all_button": "すべてを表示",
+      "wim_messaging": "プロセッサーはコンピューターの頭脳です。イ\uFEFFン\uFEFFテ\uFEFFルで秀逸な頭脳へ。",
+      "restart_title": "別のおすすめ製品を見る",
+      "restart_button": "最初からやり直す",
+      "products_tab": "製品",
+      "summary_tab": "まとめ",
+      "meta_description": "あなたにぴったりの PC は？自分にぴったりの製品を表示する",
+      "powered_by_celeron": "インテル® Celeron® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+      "powered_by_pentium": "インテル® Pentium® プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+      "powered_by_i3": "インテル® Core™ i3 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+      "powered_by_i5": "インテル® Core™ i5 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+      "powered_by_i7": "インテル® Core™ i7 プ&#xfeff;ロ&#xfeff;セ&#xfeff;ッ&#xfeff;サ&#xfeff;ー",
+      "powered_by_i9": "インテル® Core™ i9 プロセッサー",
+      "pentium": "assets/images/pentium.png",
+      "celeron": "assets/images/celeron.png",
+      "i3": "assets/images/i3.png",
+      "i5": "assets/images/i5.png",
+      "i7": "assets/images/i7.png",
+      "i9": "assets/images/i9.png",
+      "tagline": "インテル製品を探す",
+      "html_lang": "ja",
+      "analytics_lang": "jp-ja",
+      "downsell_messaging": "ご要望にぴったりと一致する製品は見つかりませんでしたが、興味を持っていただけそうな製品はこちらです。",
+      "iframe_offset_desktop": "0",
+      "iframe_offset_mobile": "0",
+      "iframe_offset_breakpoint": "0",
+      "demo_mode": false,
+      "demo_mode_dialog": "このボタンは、カスタム設定された製品 URL にアクセスします。",
+      "retailer_logo": "",
+      "display_chromebook": false,
+      "minimum_chromebook_quantity": 1,
+      "minimum_form_factor_quantity": 1,
+      "minimum_api_quantity": 9,
+      "localized_api_data": false,
+      "skip_form_factor": false,
+      "skip_form_factor_to": "Notebook"
+    }
+  ]
+}

@@ -1,0 +1,984 @@
+<!doctype html>
+<html class="no-js loading" lang="zh-Hant" dir="ltr">
+   <head>
+       <meta charset="utf-8">
+       <meta http-equiv="x-ua-compatible" content="ie=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Intel® 電腦選購指南</title>
+       <meta name="ogTitle" property="og:title" content="Intel® 電腦選購指南"/>
+       <meta name="ogDescription" property="og:description" content="哪一款電腦最適合您？查看為您推薦的產品了解更多！" />
+       <meta name="ogImage" property="og:image" content="assets/images/intel-shopper-recommendation-tool.png" />
+       <meta property="og:image:width" content="1200">
+       <meta property="og:image:height" content="630">
+       <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+       <link rel="manifest" href="assets/images/site.webmanifest">
+       <link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#5bbad5">
+       <meta name="msapplication-TileColor" content="#ffffff">
+       <meta name="theme-color" content="#ffffff">
+       <link rel="stylesheet" href="assets/styles/style.css">
+       <link rel="stylesheet" href="assets/styles/style-lang.css">
+   </head>
+   <body>
+   <div id="top"></div>
+   <div class="preloader"><div class="loading-ring"><div></div><div></div><div></div><div></div></div></div>
+   <div class="app-wrapper">
+       <div id="app-render-template">
+           <nav class="global">
+               <button class="button back-button"></button>
+               <div class="retailer-logo"></div>
+               <button class='button modal-button legal-button' data-open='sj_legal'></button>
+           </nav>
+       </div>
+       <script id="app-template" type="text/template">
+           {{#each content}}
+               <div class="slider">
+
+                   <div class="slide slide-start">
+
+                       <div class="slide-container">
+
+                           <header>
+                               <div class="slide-instructions">
+                                   <div>
+                                       <img src="assets/images/icons/intel-logo.svg" class="intel-logo" alt="Intel Logo" title="Intel Logo" />
+                                       <h1>{{{entry_screen_title}}}</h1>
+                                   </div>
+                               </div>
+                           </header>
+
+                           <div class="slide-content">
+
+                               <div class="slide-instructions-mobile">
+                                   <div>
+                                       <img src="assets/images/icons/intel-logo-grey.svg" class="intel-logo" alt="Intel Logo" title="Intel Logo" />
+                                       <h1>{{{entry_screen_title}}}</h1>
+                                   </div>
+                               </div>
+
+                               <div class="slide-inner-content">
+
+                                   <div class="row small-up-1 medium-up-3 large-up-3" data-equalizer="entry_screen">
+
+                                       {{#each entry_screen}}
+                                       <div class="column column-block">
+                                           <div data-equalizer-watch="entry_screen">
+                                               <img src="{{icon}}" alt="{{content}}">
+                                               <div>
+                                                   <p data-title="{{content}}">{{{content}}}</p>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       {{/each}}
+
+                                   </div>
+
+                               </div>
+
+                           </div>
+
+                       </div>
+
+                       <footer>
+                           <button class="button start-button button-next">{{start_button}}</button>
+                           <button class='button modal-button blue-button button-pre_recommendation' disabled>{{pre_recommendation_button}}</button>
+                       </footer>
+
+                   </div>
+
+
+                   <div class="slide slide-form_factor">
+
+                       <div class="slide-container">
+
+                           <header>
+                               <div class="slide-instructions">
+                                   <div>
+                                       <h1>{{{form_factor_choice_title}}}</h1>
+                                   </div>
+                                   <div>
+                                       <h6>{{form_factor_choice_subtitle}}</h6>
+                                   </div>
+                               </div>
+                           </header>
+
+                           <div class="slide-content">
+
+                               <div class="slide-instructions-mobile">
+                                   <h1>{{{form_factor_choice_title}}}</h1>
+                                   <h6>{{form_factor_choice_subtitle}}</h6>
+                               </div>
+
+                               <div class="slide-inner-content">
+
+                                   <div class="thumbnails row small-up-2 medium-up-3 large-up-3" data-equalizer="form_factor">
+
+                                       {{#each form_factor}}
+                                       <div class="column column-block form-factor-{{id}}">
+                                           <div class="thumbnail" data-id="{{id}}" data-equalizer-watch="form_factor" id="form-factor-{{id}}">
+                                               <img class="thumbnail-image" src="{{image}}" alt="{{id}}">
+                                               <div>
+                                                   <p data-title="{{title}}">{{{title}}}</p>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       {{/each}}
+
+                                   </div>
+
+                               </div>
+
+                           </div>
+
+                       </div>
+
+                       <footer>
+                           <button class="button button-form_factor button-next" disabled>{{next_button}}</button>
+                           <button class='button modal-button blue-button button-pre_recommendation'>{{pre_recommendation_button}}</button>
+                       </footer>
+
+                   </div>
+
+
+                   {{#each form_factor}}
+                   <div class="slide slide-categories" data-id="slide-categories-{{id}}">
+
+                       <div class="slide-container">
+
+                           <header>
+                               <div class="slide-instructions">
+                                   <div>
+                                       <h1>{{{../usage_category_title}}}</h1>
+                                   </div>
+                                   <div>
+                                       <h6>{{../usage_category_subtitle}}</h6>
+                                   </div>
+                               </div>
+                           </header>
+
+                           <div class="slide-content">
+
+                               <div class="slide-instructions-mobile">
+                                   <h1>{{{../usage_category_title}}}</h1>
+                                   <h6>{{../usage_category_subtitle}}</h6>
+                               </div>
+
+                               <div class="slide-inner-content">
+
+                                   <div class="thumbnails row small-up-1 medium-up-3 large-up-3" data-equalizer="slide-categories-{{id}}">
+
+                                       {{#each usage_categories}}
+                                       <div class="column column-block">
+                                           <div class="thumbnail" data-metrics="{{metrics}}" data-id="{{id}}" data-equalizer-watch="slide-categories-{{id}}">
+                                               <img class="thumbnail-image" src="{{icon}}" alt="{{id}}">
+                                               <div>
+                                                   <p data-title="{{title}}">{{{title}}}</p>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       {{/each}}
+
+                                   </div>
+
+                               </div>
+
+                           </div>
+
+                       </div>
+
+                       <footer>
+                           <button class="button button-categories button-next" disabled>{{../next_button}}</button>
+                           <button class='button modal-button blue-button button-pre_recommendation'>{{../pre_recommendation_button}}</button>
+                       </footer>
+
+                   </div>
+                   {{/each}}
+
+                   {{#each form_factor}}
+                       {{#each usage_categories}}
+                       <div class="slide slide-usage_model_category" data-id="usage-model-category-{{id}}">
+                           <div class="slide-container">
+                               <header class="usage-model-category-{{id}}-bg usage-model-category-header">
+                                   <div class="slide-instructions">
+                                       <div>
+                                           <h3>{{title}}</h3>
+                                           <div class="slide-instructions-inner-container">
+                                               <button class='button modal-button' data-wap_ref='{{id}}' data-open='sj_{{id}}'>{{../../modal_button}}</button>
+                                           </div>
+                                       </div>
+                                       <div>
+                                           <h2>{{../sub_title}}</h2>
+                                           <h6>{{../../usage_category_subtitle}}</h6>
+                                       </div>
+                                   </div>
+                               </header>
+                               <div class="slide-content">
+
+                                   <div class="slide-instructions-mobile">
+                                       <div>
+                                           <h1>{{title}}</h1>
+                                           <div class="slide-instructions-inner-container">
+                                               <button class='button modal-button' data-wap_ref='{{id}}' data-open='sj_{{id}}'>{{../../modal_button}}</button>
+                                           </div>
+                                       </div>
+                                       <div>
+                                           <h4>{{../sub_title}}</h4>
+                                           <h6>{{../../usage_category_subtitle}}</h6>
+                                       </div>
+                                   </div>
+
+                                   <div class="slide-inner-content">
+                                       <div id="usage-model-category-{{id}}" class="thumbnails row small-up-1 medium-up-{{usage_models.length}} large-up-{{usage_models.length}}" data-equalizer="usage-model-category-{{id}}">
+                                           {{#each usage_models}}
+                                           <div class="column column-block">
+                                               <div class="thumbnail" data-id="{{chip}}" data-metrics="{{metrics}}" data-equalizer-watch="usage-model-category-{{id}}" data-ram="{{ram}}" data-hdd="{{hdd}}">
+                                                   <img class="thumbnail-image" src="{{icon}}" alt="{{id}}">
+                                                   <div>
+                                                       <p data-title="{{title}}">{{{title}}}</p> 
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           {{/each}}
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <footer>
+                               <button class="button button-usage-model-categories button-next" disabled>{{../next_button}}</button>
+                               <button class='button modal-button blue-button button-pre_recommendation'>{{../pre_recommendation_button}}</button>
+                           </footer>
+                       </div>
+                       {{/each}}
+                   {{/each}}
+
+                   <div id="configurator-render-template" class="slide">
+                       <div id="recommendation-slide" class="row configurator-template-row">
+                           <div class="large-9 medium-9 small-12 columns configurator-template-content">
+                               <header class="recommendation-header">
+                                   <div class="slide-instructions">
+                                       <div>
+                                           <h1 class="recommendation-title">{{recommendation_title}}</h1>
+                                       </div>
+                                   </div>
+                               </header>
+                               <div class="row configurator-template-container slide-content">
+                                   <div class="recommendations large-12 medium-12 small-12 columns">
+                                       <div class="row small-up-1 medium-up-3 large-up-3 product-container">
+                                           <div class="product-inner-container"></div>
+                                       </div>
+                                       <div class="wim-messaging">{{{wim_messaging}}}</div>
+                                   </div>
+                                   <div class="recommendations-mobile large-12 medium-12 small-12 columns">
+                                       <ul class="tabs" data-tabs id="recommendation_tabs">
+                                           <li class="tabs-title is-active"><a href="#tabs-products" aria-selected="true">{{products_tab}}</a></li>
+                                           <li class="tabs-title"><a href="#tabs-summary">{{summary_tab}}</a></li>
+                                       </ul>
+                                       <div class="tabs-content" data-tabs-content="recommendation_tabs">
+                                           <div class="tabs-panel is-active" id="tabs-products">
+                                               <div class="row small-up-1 medium-up-1 large-up-1 product-container">
+                                                   <div class="product-inner-container"></div>
+                                                   <div class="wim-messaging">{{{wim_messaging}}}</div>
+                                               </div>
+                                           </div>
+                                           <div class="tabs-panel" id="tabs-summary">
+                                               <div class="large-12 medium-12 small-12 columns sidebar">
+                                                   <div class="sidebar-container">
+
+                                                       <div>
+                                                           <button class='button modal-button' data-open='sj_reasoning' data-wap_ref="side_journey:click-you-chose"><span>{{{recommendation_reasoning_title}}}</span> <img src="assets/images/arrow-right.svg" class="modal-button-arrow" /></button>
+                                                       </div>
+
+                                                       <div class="powered-by">
+
+                                                           <div class='powered-by-button' data-wap_ref="side_journey:more-info"><span>{{{powered_by_title}}}</span> <img src="assets/images/arrow-right.svg" class="modal-button-arrow" /></div>
+
+                                                           <div class="powered-by-chip-container">
+                                                               <p class="powered-by-text"></p>
+                                                           </div>
+
+                                                       </div>
+
+                                                       <div class="view-all">
+                                                           <button class='button modal-button' data-open='sj_processor_comparison' data-wap_ref="side_journey:view-all"><span>{{{view_all_title}}}</span>  <img src="assets/images/arrow-right.svg" class="modal-button-arrow" /></button>
+                                                       </div>
+
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="large-3 medium-3 small-12 columns sidebar">
+
+                               <div class="sidebar-container">
+
+                                   <div>
+                                       <button class='button modal-button' data-open='sj_reasoning' data-wap_ref="side_journey:click-you-chose"><span>{{{recommendation_reasoning_title}}}</span> <img src="assets/images/arrow-right.svg" class="modal-button-arrow" /></button>
+                                   </div>
+
+                                   <div class="powered-by">
+
+                                       <div class='powered-by-button' data-wap_ref="side_journey:more-info"><span>{{{powered_by_title}}}</span> <img src="assets/images/arrow-right.svg" class="modal-button-arrow" /></div>
+
+                                       <div class="powered-by-chip-container">
+                                           <p class="powered-by-text"></p>
+                                       </div>
+
+                                   </div>
+
+                                   <div class="view-all">
+                                       <button class='button modal-button' data-open='sj_processor_comparison' data-wap_ref="side_journey:view-all"><span>{{{view_all_title}}}</span>  <img src="assets/images/arrow-right.svg" class="modal-button-arrow" /></button>
+                                   </div>
+
+                               </div>
+
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+
+               <div class="hidden selected-form-factor"></div>
+               <div class="hidden selected-chip"></div>
+               <div class="hidden slide-count"></div>
+               <div class="hidden current-slide"></div>
+               {{#each form_factor}}
+                   <div class="hidden {{id}}" data-title="{{title}}" data-src="{{icon}}"></div>
+               {{/each}}
+               {{#each form_factor}}
+                    {{#each usage_categories}}
+                        <div class="hidden {{id}}" data-title="{{title}}" data-metrics="{{metrics}}" data-src="{{icon}}"></div>
+                    {{/each}}
+               {{/each}}
+
+               {{#each form_factor}}
+                   {{#each form_factor_side_journey}}
+                   <div class="full reveal form-factor-reveal side-journey" id="{{id}}" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                       <nav>
+                           <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                           <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                       </nav>
+                       <div class="reveal-container">
+                           <div class="reveal-inner-container row">
+                               <div class="large-6 medium-6 small-12 columns images-container">
+                                   <div>
+                                       <img src="{{image}}" alt="{{{title}}}" />
+                                   </div>
+                               </div>
+                               <div class="large-6 medium-6 small-12 columns content-container">
+                                   <div class="reveal-content">
+                                       <div class="reveal-inner-content">
+                                            <h1>{{{title}}}</h1>
+                                            {{#each content}}
+                                                <p>{{{paragraph}}}</p>
+                                            {{/each}}
+                                       </div>
+                                   </div>
+                                   <div class="reveal-footer">
+                                       <img src="assets/images/icons/intel-logo.svg" alt="{{../../tagline}}" title="{{../../tagline}}" /> <span>{{../../tagline}}</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   {{/each}}
+               {{/each}}
+
+               {{#each form_factor}}
+                   {{#each usage_categories}}
+                   <div class="full reveal side-journey usage-model-reveal white-reveal" id="sj_{{id}}" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                       <nav>
+                           <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                           <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                       </nav>
+                       <div class="reveal-container">
+                           <div class="reveal-inner-container row">
+                               <div class="large-6 medium-6 small-12 columns images-container"></div>
+                               <div class="large-6 medium-6 small-12 columns content-container">
+                                   <div class="reveal-content">
+                                       <div class="reveal-title">
+                                           <h1>
+                                               {{{title}}}
+                                           </h1>
+                                       </div>
+                                       <ul class="accordion" data-accordion data-allow-all-closed="true" data-multi-expand="false">
+                                       {{#each usage_models}}
+                                           {{#if @first}}
+                                               <li class="accordion-item is-active" data-accordion-item>
+                                                   <a href="#" class="accordion-title"><img src="{{icon}}" alt="{{{title}}}"/> <span>{{{title}}}</span></a>
+                                                   <div class="accordion-content" data-tab-content>
+                                                       {{#each content}}
+                                                           {{#if paragraph}}
+                                                           <p>
+                                                               {{{paragraph}}}
+                                                           </p>
+                                                           {{/if}}
+                                                           {{#if caption}}
+                                                               <div class='caption-icon'><img src="{{caption_icon}}" alt="{{caption}}"/> <span>{{{caption}}}</span></div>
+                                                           {{/if}}
+                                                       {{/each}}
+                                                   </div>
+                                               </li>
+                                           {{else}}
+                                               <li class="accordion-item" data-accordion-item>
+                                                   <a href="#" class="accordion-title"><img src="{{icon}}" alt="{{{title}}}"/> <span>{{{title}}}</span></a>
+                                                   <div class="accordion-content" data-tab-content>
+                                                       {{#each content}}
+                                                           {{#if paragraph}}
+                                                           <p>
+                                                               {{{paragraph}}}
+                                                           </p>
+                                                           {{/if}}
+                                                           {{#if caption}}
+                                                               <div class='caption-icon'><img src="{{caption_icon}}" alt="{{caption}}"/> <span>{{{caption}}}</span></div>
+                                                           {{/if}}
+                                                       {{/each}}
+                                                   </div>
+                                               </li>
+                                           {{/if}}
+                                       {{/each}}
+                                       </ul>
+                                   </div>
+                                   <div class="reveal-footer">
+                                       <img src="assets/images/icons/intel-logo.svg" alt="{{../../tagline}}" title="{{../../tagline}}" /> <span>{{../../tagline}}</span>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   {{/each}}
+               {{/each}}
+
+               {{#each usage_categories}}
+               <div class="full reveal side-journey usage-model-reveal white-reveal" id="sj_{{id}}" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                   <nav>
+                       <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                       <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                   </nav>
+                   <div class="reveal-container">
+                       <div class="reveal-inner-container row">
+                           <div class="large-6 medium-6 small-12 columns images-container"></div>
+                           <div class="large-6 medium-6 small-12 columns content-container">
+                               <div class="reveal-content">
+                                   <div class="reveal-title">
+                                       <h1>
+                                           {{../usage_model_side_journey_title}}
+                                           </br>
+                                           {{{title}}}
+                                       </h1>
+                                   </div>
+                                   <ul class="accordion" data-accordion data-allow-all-closed="true" data-multi-expand="false">
+                                   {{#each usage_models}}
+                                       {{#if @first}}
+                                           <li class="accordion-item is-active" data-accordion-item>
+                                               <a href="#" class="accordion-title"><img src="{{icon}}" alt="{{{title}}}"/> <span>{{{title}}}</span></a>
+                                               <div class="accordion-content" data-tab-content>
+                                                   {{#each content}}
+                                                       {{#if paragraph}}
+                                                       <p>
+                                                           {{{paragraph}}}
+                                                       </p>
+                                                       {{/if}}
+                                                       {{#if caption}}
+                                                           <div class='caption-icon'><img src="{{caption_icon}}" alt="{{caption}}"/> <span>{{{caption}}}</span></div>
+                                                       {{/if}}
+                                                   {{/each}}
+                                               </div>
+                                           </li>
+                                       {{else}}
+                                           <li class="accordion-item" data-accordion-item>
+                                               <a href="#" class="accordion-title"><img src="{{icon}}" alt="{{{title}}}"/> <span>{{{title}}}</span></a>
+                                               <div class="accordion-content" data-tab-content>
+                                                   {{#each content}}
+                                                       {{#if paragraph}}
+                                                       <p>
+                                                           {{{paragraph}}}
+                                                       </p>
+                                                       {{/if}}
+                                                       {{#if caption}}
+                                                           <div class='caption-icon'><img src="{{caption_icon}}" alt="{{caption}}"/> <span>{{{caption}}}</span></div>
+                                                       {{/if}}
+                                                   {{/each}}
+                                               </div>
+                                           </li>
+                                       {{/if}}
+                                   {{/each}}
+                                   </ul>
+                               </div>
+                               <div class="reveal-footer">
+                                   <img src="assets/images/icons/intel-logo.svg" alt="{{../../tagline}}" title="{{../../tagline}}" /> <span>{{../../tagline}}</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               {{/each}}
+
+               {{#each form_factor}}
+                   {{#each processor_side_journeys}}
+                   <div class="full reveal side-journey processor-reveal" id="{{id}}" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                       <nav>
+                           <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                           <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                       </nav>
+                       <div class="reveal-container">
+                           <div class="reveal-inner-container row">
+                               <div class="large-6 medium-6 small-12 columns images-container"></div>
+                               <div class="large-6 medium-6 small-12 columns content-container">
+                                   <div class="reveal-content">
+                                       <div class="reveal-inner-content">
+                                           <div class="reveal-title">
+                                               <h1>{{{title}}}</h1>
+                                           </div>
+                                           <div class="processor-side-journey-chip">
+                                               {{#each content}}
+                                                   <p>{{{paragraph}}}</p>
+                                               {{/each}}
+                                           </div>
+                                           <h4 class="processor-side-journey-recommendation-label">{{../../processor_side_journeys_subtitle}}</h4>
+                                           {{#each usage_models}}
+                                                <div class="usage-model-category" data-id="{{id}}"></div>
+                                           {{/each}}
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   {{/each}}
+               {{/each}}
+
+               <div class="full reveal" id="sj_processor_comparison" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                   <nav>
+                       <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                       <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                   </nav>
+                   <div class="reveal-container">
+                       <div class="reveal-inner-container row">
+                           <div class="large-12 medium-12 small-12 columns content-container">
+                               <div class="reveal-content">
+                                   <div class="reveal-title">
+                                       <h1>{{{processor_comparison_side_journey_title}}}</h1>
+                                       <h4>{{{processor_comparison_side_journey_subtitle}}}</h4>
+                                   </div> 
+                                   {{#each form_factor}}
+                                   <div class="processor-comparison-container" id="processor-comparison-container_{{id}}">
+                                       <ul class="tabs" data-tabs id="processor_comparison_tabs_{{id}}">
+                                           {{#each usage_categories}}
+                                               {{#if @first}}
+                                                   <li class="tabs-title is-active"><a href="#tabs-{{id}}" aria-selected="true"><img src="{{icon}}" alt="{{title}}"/> {{title}}</a></li>
+                                               {{else}}
+                                                   <li class="tabs-title"><a href="#tabs-{{id}}"><img src="{{icon}}" alt="{{title}}"/> {{title}}</a></li>
+                                               {{/if}}
+                                           {{/each}}
+                                       </ul>
+                                       <div class="tabs-content" data-tabs-content="processor_comparison_tabs_{{id}}">
+                                           {{#each usage_categories}}
+                                               {{#if @first}}
+                                               <div class="tabs-panel is-active" id="tabs-{{id}}">
+                                               {{else}}
+                                               <div class="tabs-panel" id="tabs-{{id}}">
+                                               {{/if}}
+                                                   <table border="0" cellspacing="0" cellpadding="0">
+                                                       <thead>
+                                                           <tr>
+                                                               <td>
+                                                               </td>
+                                                               <td>
+                                                               </td>
+                                                               <td class="flex-table-cell celeron">
+                                                                   <img src="{{../../celeron}}" / />
+                                                               </td>
+                                                               <td class="flex-table-cell pentium">
+                                                                   <img src="{{../../pentium}}" / />
+                                                               </td>
+                                                               <td class="flex-table-cell i3">
+                                                                   <img src="{{../../i3}}" / />
+                                                               </td>
+                                                               <td class="flex-table-cell i5">
+                                                                   <img src="{{../../i5}}" / />
+                                                               </td>
+                                                               <td class="flex-table-cell i7">
+                                                                   <img src="{{../../i7}}" / />
+                                                               </td>
+                                                               <td class="flex-table-cell i9">
+                                                                   <img src="{{../../i9}}" / />
+                                                               </td>
+                                                           </tr>
+                                                       </thead>
+                                                       <tbody>
+                                                           {{#each usage_models}}
+                                                           <tr class="table-row-{{@index}}">
+                                                               <td>
+                                                                   <img src="{{icon}}" />
+                                                               </td>
+                                                               <td>
+                                                                   <div><span>{{{title}}}</span></div>
+                                                               </td>
+                                                               <td class="checkmark celeron"><img src="assets/images/icons/icon-checkmark.svg"/></td>
+                                                               <td class="checkmark pentium"><img src="assets/images/icons/icon-checkmark.svg"/></td>
+                                                               <td class="checkmark i3"><img src="assets/images/icons/icon-checkmark.svg"/></td>
+                                                               <td class="checkmark i5"><img src="assets/images/icons/icon-checkmark.svg"/></td>
+                                                               <td class="checkmark i7"><img src="assets/images/icons/icon-checkmark.svg"/></td>
+                                                               <td class="checkmark i9"><img src="assets/images/icons/icon-checkmark.svg"/></td>
+                                                           </tr>
+                                                           {{/each}}
+                                                       </tbody>
+                                                   </table>
+                                               </div>
+                                           {{/each}}
+                                       </div>
+                                   </div>
+                                   {{/each}}
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="full reveal" id="sj_reasoning" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                   <nav>
+                       <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                       <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                   </nav>
+                   <div class="reveal-container">
+                       <div class="reveal-inner-container">
+                           <div class="large-12 medium-12 small-12 columns">
+                               <div class="reveal-title">
+                                   <h1>{{{reasoning_side_journey_title}}}</h1>
+                                   <h4>{{{reasoning_side_journey_subtitle}}}</h4>
+                               </div>
+                               <div class="why-list-container">
+                                   <ul class="why-list"></ul>
+                               </div>
+                               <div class="sidebar">
+                                   <div>
+                                       <h3>{{device_configuration_side_journey_sidebar_title}}</h3>
+                                       <button class='button modal-button device-configuration-button' data-open='sj_device_configuration' data-wap_ref="side_journey:device-config">{{powered_by_button}}</button>
+                                   </div>
+                                   <div>
+                                       <h3 class="restart-title">{{restart_title}}</h3>
+                                       <div class='restart-button'>{{restart_button}}</div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+           {{#each form_factor}}
+               <div class="full reveal" id="sj_device_configuration_{{id}}" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                   <nav>
+                       <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                       <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                   </nav>
+                   <div class="reveal-container">
+                       <div class="reveal-inner-container row">
+                           <div class="large-12 medium-12 small-12 columns content-container">
+                               <div class="reveal-content">
+
+                                   <div class="reveal-title">
+                                       <h1>{{{../device_configuration_side_journey_title}}}</h1>
+                                       <h4>{{{../device_configuration_side_journey_subtitle}}}</h4>
+                                       <button class='button modal-button' data-open='sj_features_technology_{{id}}' data-wap_ref="side_journey:features">{{../features_technology_side_journey_button}} <img src="assets/images/arrow-right.svg" class="modal-button-arrow" /></button>
+                                   </div>
+
+                                   <div class="desktop-layout">
+
+                                       <table border="0" cellspacing="0" cellpadding="0">
+                                           <tbody>
+                                               {{#each device_configuration_side_journey}}
+                                               <tr class="table-row-{{@index}}">
+                                                   {{#each row}}
+                                                       <td>
+                                                           <div>
+                                                               {{#if image}}
+                                                                   <img src="{{image}}" alt="{{title}}" />
+                                                               {{/if}}
+                                                               {{#if title}}
+                                                               <div>
+                                                                   <span>{{title}}</span>
+                                                                   {{#if subtitle}}
+                                                                       {{subtitle}}
+                                                                   {{/if}}
+                                                               </div>
+                                                               {{/if}}
+                                                           </div>
+                                                       </td>
+                                                   {{/each}}
+                                               </tr>
+                                               {{/each}}
+                                           </tbody>
+                                       </table>
+
+                                   </div>
+
+                                   <div class="mobile-layout">
+
+                                       <table border="0" cellspacing="0" cellpadding="0">
+                                           <tbody>
+                                               {{#each device_configuration_side_journey}}
+                                               <tr class="table-row-{{@index}}">
+                                                   {{#each row}}
+                                                       <td>
+                                                           <div>
+                                                               {{#if image}}
+                                                                   <img src="{{image}}" alt="{{title}}" />
+                                                               {{/if}}
+                                                               {{#if title}}
+                                                               <div>
+                                                                   <span>{{title}}</span>
+                                                                   {{#if subtitle}}
+                                                                       {{subtitle}}
+                                                                   {{/if}}
+                                                               </div>
+                                                               {{/if}}
+                                                           </div>
+                                                       </td>
+                                                   {{/each}}
+                                               </tr>
+                                               {{/each}}
+                                           </tbody>
+                                       </table>
+
+                                       <table border="0" cellspacing="0" cellpadding="0">
+                                           <tbody>
+                                               {{#each device_configuration_side_journey}}
+                                               <tr class="table-row-{{@index}}">
+                                                   {{#each row}}
+                                                       <td>
+                                                           <div>
+                                                               {{#if image}}
+                                                                   <img src="{{image}}" alt="{{title}}" />
+                                                               {{/if}}
+                                                               {{#if title}}
+                                                               <div>
+                                                                   <span>{{title}}</span>
+                                                                   {{#if subtitle}}
+                                                                       {{subtitle}}
+                                                                   {{/if}}
+                                                               </div>
+                                                               {{/if}}
+                                                           </div>
+                                                       </td>
+                                                   {{/each}}
+                                               </tr>
+                                               {{/each}}
+                                           </tbody>
+                                       </table>
+
+                                       <table border="0" cellspacing="0" cellpadding="0">
+                                           <tbody>
+                                               {{#each device_configuration_side_journey}}
+                                               <tr class="table-row-{{@index}}">
+                                                   {{#each row}}
+                                                       <td>
+                                                           <div>
+                                                               {{#if image}}
+                                                                   <img src="{{image}}" alt="{{title}}" />
+                                                               {{/if}}
+                                                               {{#if title}}
+                                                               <div>
+                                                                   <span>{{title}}</span>
+                                                                   {{#if subtitle}}
+                                                                       {{subtitle}}
+                                                                   {{/if}}
+                                                               </div>
+                                                               {{/if}}
+                                                           </div>
+                                                       </td>
+                                                   {{/each}}
+                                               </tr>
+                                               {{/each}}
+                                           </tbody>
+                                       </table>
+
+                                   </div>
+
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+             {{/each}}
+
+             {{#each form_factor}}
+                 <div class="full reveal" id="sj_features_technology_{{id}}" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                     <nav>
+                         <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                         <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                     </nav>
+                     <div class="reveal-container">
+                         <div class="reveal-inner-container row">
+                             <div class="large-12 medium-12 small-12 columns content-container">
+                                 <div class="reveal-content">
+
+                                     <div class="reveal-title">
+                                         <h1>{{{../features_technology_side_journey_title}}}</h1>
+                                         <h4>{{{../features_technology_side_journey_subtitle}}}</h4>
+                                     </div>
+
+                                     <div class="desktop-layout">
+
+                                         <table border="0" cellspacing="0" cellpadding="0">
+                                             <tbody>
+                                                 {{#each features_technology_side_journey}}
+                                                 <tr class="table-row-{{@index}}">
+                                                     {{#each row}}
+                                                         <td>
+                                                             <div>
+                                                                 {{#if image}}
+                                                                     <img src="{{image}}" alt="{{title}}" />
+                                                                 {{/if}}
+                                                                 {{#if title}}
+                                                                 <div>
+                                                                     <span>{{{title}}}</span>
+                                                                     {{#if subtitle}}
+                                                                         {{{subtitle}}}
+                                                                     {{/if}}
+                                                                 </div>
+                                                                 {{/if}}
+                                                                 {{#if content}}
+                                                                 <div>
+                                                                     {{{content}}}
+                                                                 </div>
+                                                                 {{/if}}
+                                                             </div>
+                                                         </td>
+                                                     {{/each}}
+                                                 </tr>
+                                                 {{/each}}
+                                             </tbody>
+                                         </table>
+
+                                     </div>
+
+                                     <div class="mobile-layout">
+
+                                         <table border="0" cellspacing="0" cellpadding="0">
+                                             <tbody>
+                                                 {{#each features_technology_side_journey}}
+                                                 <tr class="table-row-{{@index}}">
+                                                     {{#each row}}
+                                                         <td>
+                                                             <div>
+                                                                 {{#if image}}
+                                                                     <img src="{{image}}" alt="{{title}}" />
+                                                                 {{/if}}
+                                                                 {{#if title}}
+                                                                 <div>
+                                                                     <span>{{{title}}}</span>
+                                                                     {{#if subtitle}}
+                                                                         {{{subtitle}}}
+                                                                     {{/if}}
+                                                                 </div>
+                                                                 {{/if}}
+                                                                 {{#if content}}
+                                                                 <div>
+                                                                     {{{content}}}
+                                                                 </div>
+                                                                 {{/if}}
+                                                             </div>
+                                                         </td>
+                                                     {{/each}}
+                                                 </tr>
+                                                 {{/each}}
+                                             </tbody>
+                                         </table>
+
+                                     </div>
+
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+               {{/each}}
+
+               <div class="full reveal" id="sj_pre_recommendation" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                   <nav>
+                       <button class="close-button button reveal-button close-pre-recommendation" aria-label="Close" type="button"></button>
+                       <button class='button modal-button legal-button' data-open='sj_legal'></button>
+                   </nav>
+                   <div class="row configurator-template-row">
+                       <div class="large-9 medium-9 small-12 columns configurator-template-content">
+                           <header class="recommendation-header">
+                               <div class="slide-instructions">
+                                   <div>
+                                       <h1 class="pre-recommendation-title">{{pre_recommendation_title}}</h1>
+                                   </div>
+                               </div>
+                           </header>
+                           <div class="row configurator-template-container slide-content">
+                               <div class="recommendations large-12 medium-12 small-12 columns">
+                                   <div class="row small-up-1 medium-up-3 large-up-3 product-container">
+                                       <div class="product-inner-container"></div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="large-3 medium-3 small-12 columns pre-sidebar">
+                           <div>
+                               <p>
+                                   {{pre_recommendation_content}}
+                               </p>
+                           </div>
+                           <button class="close-button button blue-button close-pre-recommendation" aria-label="Close" type="button">{{pre_recommendation_close_button}}</button>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="full reveal" id="sj_legal" data-reveal data-v-offset="0" data-h-offset="0" data-full-screen="true" data-close-on-click="false" data-close-on-esc="false" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-multiple-opened="true">
+                   <nav>
+                       <button class="close-button button reveal-button" aria-label="Close" type="button"></button>
+                   </nav>
+                   <div class="reveal-container">
+                       <div class="reveal-inner-container">
+                           <h1>{{legal_title}}</h1>
+                           {{#each legal_content}}
+                               <p>
+                                   {{{paragraph}}}
+                               </p>
+                           {{/each}}
+                       </div>
+                   </div>
+               </div>
+
+           {{/each}}
+       </script>
+       <script id="configurator-template" type="text/template"></script>
+   </div>
+   <script src="assets/scripts/vendor/renderer.js"></script>
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157822753-1"></script>
+   <script>
+
+        var is_dev = 'true';
+        var app_version = '2.1.0';
+        var app_lang = 'tw-zh';
+        if (is_dev === 'true'){ is_dev = false; }
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+
+        gtag('js', new Date());
+        gtag('set', {'dimension1':app_lang});
+
+        if (is_dev){
+            gtag('set', {'dimension2':true});
+        } else {
+            gtag('set', {'dimension2':false});
+        }
+
+        gtag('config', 'UA-157822753-1', {
+            'app_name': 'IntelSRT',
+            'app_version': app_version,
+            'anonymize_ip': true,
+            'allow_google_signals': false
+        });
+
+   </script>
+   <script src="assets/scripts/scripts.js"></script>
+ </body>
+</html>

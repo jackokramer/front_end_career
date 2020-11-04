@@ -1,0 +1,1932 @@
+{
+  "content": [
+    {
+      "site_title": "Intel® Alat Rekomendasi Belanja",
+      "entry_screen_title": "Membantu menemukan PC yang tepat untuk Anda",
+      "entry_screen": [
+        {
+          "icon": "assets/images/icons/icon-start-01.svg",
+          "content": "Pilih jenis perangkat yang Anda inginkan"
+        },
+        {
+          "icon": "assets/images/icons/icon-start-02.svg",
+          "content": "Beri tahu kami bagaimana Anda akan menggunakannya"
+        },
+        {
+          "icon": "assets/images/icons/icon-start-03.svg",
+          "content": "Kami akan merekomendasikan produk berdasarkan jawaban Anda"
+        }
+      ],
+      "form_factor_choice_title": "Saya tertarik dengan:",
+      "form_factor_choice_subtitle": "Pilih salah satu kategori di bawah ini",
+      "form_factor": [
+        {
+          "title": "Laptop, 2 in 1, dan Chromebook<sup>*</sup>",
+          "title_fallback": "Laptop dan 2 in 1",
+          "sub_title": "Apa yang ingin Anda lakukan dengan PC Anda?",
+          "id": "Notebook",
+          "image": "assets/images/laptop-two-in-one.png",
+          "icon": "assets/images/icons/icon-Notebook.svg",
+          "usage_categories": [
+            {
+              "title": "Produktivitas",
+              "id": "Notebook_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "Email dan penelusuran web",
+                  "id": "Notebook_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Periksa media sosial, chat bersama teman, belanja online, dan baca berita."
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "Tugas kantor rumahan",
+                  "id": "Notebook_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "Kelola kalender dan keuangan pribadi, tulis kartu liburan, serta simpan agenda."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Program usaha kecil dan menengah",
+                  "id": "Notebook_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "Berkolaborasi dalam dokumen bersama, persiapkan spreadsheet dan laporan, serta kelola gaji."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Aplikasi usaha rumit",
+                  "id": "Notebook_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "Cari dalam database, render objek 3D, dan gunakan perangkat lunak tingkat perusahaan.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Hiburan",
+              "id": "Notebook_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "Mendengarkan musik",
+                  "id": "Notebook_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "Putar lagu dan podcast favorit Anda satu per satu atau dalam daftar putar. "
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "Menonton TV dan film",
+                  "id": "Notebook_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "Nikmati acara favorit dalam kualitas HD di ruang santai Anda yang nyaman."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Streaming video 4K",
+                  "id": "Notebook_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Streaming video 4K terbaru dengan tingkat kejernihan luar biasa dalam setiap detail dan sudut.",
+                      "caption": "Direkomendasikan menggunakan layar 4K",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Hiburan VR dan 360˚",
+                  "id": "Notebook_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "Dapatkan pengalaman memukau yang luar biasa dengan realitas virtual. Hentikan aktivitas sehari-hari dan jelajahi dunia baru.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Foto dan Video",
+              "id": "Notebook_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "Mengelola foto secara online",
+                  "id": "Notebook_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "Kelompokkan foto ke dalam album, tandai orang dan tempat, serta posting di media sosial atau gabungkan ke dalam tayangan slide yang menarik.",
+                      "caption": "Sangat cocok dengan Chromebook<sup>*</sup>",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Pengeditan foto sederhana",
+                  "id": "Notebook_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Poles atau sempurnakan foto keluarga, teman, atau liburan terakhir serta hidupkan kembali momen favorit Anda.",
+                      "caption": "Coba dengan Windows<sup>*</sup> Ink",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Pengeditan video",
+                  "id": "Notebook_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Buat rangkuman cuplikan video yang menarik dari pengalaman Anda yang paling berkesan.",
+                      "caption": "Direkomendasikan menggunakan penyimpanan setidaknya 500 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Aplikasi media profesional",
+                  "id": "Notebook_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "Gunakan alat bantu perangkat lunak yang canggih untuk membuat video 4K, desain grafis, dan karya seni indah lainnya.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            },
+            {
+              "title": "Pendidikan",
+              "id": "Notebook_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "Sekolah Dasar",
+                  "id": "Notebook_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "Memungkinkan murid Sekolah Dasar berkolaborasi dengan teman sekelasnya dan mempelajari teknologi.",
+                      "caption": "Sangat cocok dengan Chromebook<sup>*</sup>",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Sekolah Menengah Pertama dan Atas",
+                  "id": "Notebook_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "Tulis laporan dan lakukan pencarian informasi secara online menggunakan perangkat lunak yang disertakan bersama perangkat."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Kampus dan universitas",
+                  "id": "Notebook_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "Buat catatan, tulis makalah, dan gunakan perangkat lunak produktivitas tingkat perusahaan."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Tugas belajar teknis",
+                  "id": "Notebook_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "Pelajari cara menggunakan alat bantu perangkat lunak khusus untuk membuat situs web, mengedit video 4K, dan membuat aplikasi.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Game",
+              "id": "Notebook_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "Puzzle dan game sosial",
+                  "id": "Notebook_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Tantang teman Anda untuk mengetahui siapa yang dapat secara cepat menghancurkan blok dan menyelesaikan teka-teki silang."
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Game sederhana satu pemain",
+                  "id": "Notebook_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "Jelajahi dunia baru fantastis dalam game yang menarik untuk seluruh keluarga."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Game online",
+                  "id": "Notebook_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Lawan pesaing dari seluruh dunia dengan memainkan game multipemain terpopuler."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Game berat dan VR",
+                  "id": "Notebook_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "Frame tidak menurun meskipun Anda menggunakan realitas virtual atau bermain game, streaming, dan merekam secara bersamaan.",
+                      "caption": "Direkomendasikan menggunakan kartu grafis terpisah",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "Laptop, 2 in 1, dan Chromebook<sup>*</sup>",
+              "id": "sj_Notebook",
+              "image": "assets/images/laptop-two-in-one-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "Bekerja dan bermain saat bepergian dengan laptop yang didukung baterai tahan lama, serta desain menarik dan ringan."
+                },
+                {
+                  "paragraph": "2 in 1 menghadirkan performa laptop lengkap dan portabilitas tablet dalam satu perangkat."
+                },
+                {
+                  "paragraph": "Chromebook<sup>*</sup> akan diperbarui secara otomatis, sehingga komputer Anda selalu terupdate dengan upaya minimal."
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "Prosesor Intel® Core™ i9",
+              "id": "Notebook_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "Bermain game, streaming, dan merekam tanpa kompromi, atau bebaskan potensi kreatif Anda tanpa batas."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i7",
+              "id": "Notebook_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "Prosesor berkecepatan tinggi yang memberikan performa puncak untuk aplikasi berat yang ingin Anda jalankan."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_complex-business-applications"
+                },
+                {
+                  "id": "Notebook_vr-360-entertainment"
+                },
+                {
+                  "id": "Notebook_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i5",
+              "id": "Notebook_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "Kemampuan dan responsivitas canggih membuat Anda dapat meluangkan waktu lebih banyak untuk bekerja dan bermain, serta mengurangi waktu tunggu."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_small-midsize-business-programs"
+                },
+                {
+                  "id": "Notebook_4k-video-streaming"
+                },
+                {
+                  "id": "Notebook_video-editing"
+                },
+                {
+                  "id": "Notebook_college-university"
+                },
+                {
+                  "id": "Notebook_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i3",
+              "id": "Notebook_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "Performa lancar untuk tugas sehari-hari seperti produktivitas ringan dan streaming video layar penuh."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_home-office-tasks"
+                },
+                {
+                  "id": "Notebook_basic-single-player-games"
+                },
+                {
+                  "id": "Notebook_watching-tv-movies"
+                },
+                {
+                  "id": "Notebook_simple-photo-editing"
+                },
+                {
+                  "id": "Notebook_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Pentium®",
+              "id": "Notebook_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "Harga dan performa yang luar biasa membuat Anda dapat dengan mudah menyelesaikan pekerjaan sederhana online dan offline."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_organizing-photos-online"
+                },
+                {
+                  "id": "Notebook_elementary-school"
+                },
+                {
+                  "id": "Notebook_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Celeron®",
+              "id": "Notebook_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "Pilihan terbaik bagi pembeli yang memerlukan fungsi dasar dengan harga yang terjangkau."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_email-web-browsing"
+                },
+                {
+                  "id": "Notebook_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Prosesor",
+                  "subtitle": "(otak di komputer Anda)",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Memori",
+                  "subtitle": "(menjalankan beberapa program bersamaan)",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "Hingga 4 GB",
+                  "subtitle": "(cocok untuk menjalankan 1-3 program sekaligus)"
+                },
+                {
+                  "title": "Hingga 8 GB",
+                  "subtitle": "(cocok untuk menjalankan 4-6 program sekaligus)"
+                },
+                {
+                  "title": "Hingga 16 GB",
+                  "subtitle": "(cocok untuk menjalankan 7 atau lebih program sekaligus)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Penyimpanan",
+                  "subtitle": "(menyimpan file di komputer Anda)",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "Hingga HDD 500 GB",
+                  "subtitle": "(cocok untuk menyimpan video hingga 100 jam)"
+                },
+                {
+                  "title": "Hingga HDD 1 TB dan/atau SSD 128/256 GB"
+                },
+                {
+                  "title": "HDD 500 GB + SSD",
+                  "subtitle": "(cocok untuk booting dan akses data cepat)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Layar",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "Hingga 1920 x 1080 piksel (HD)"
+                },
+                {
+                  "title": "Hingga 1920 x 1080 piksel (HD)"
+                },
+                {
+                  "title": "Hingga 3840 x 2160 (4K Ultra HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Grafis",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "Grafis terintegrasi"
+                },
+                {
+                  "title": "Grafis terintegrasi atau grafis terpisah tingkat awal"
+                },
+                {
+                  "title": "Grafis terpisah atau grafis terintegrasi tingkat tinggi"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Intel® WiFi 6 (Gig+)",
+                  "subtitle": "Terobosan berikutnya dalam WiFi untuk PC dan router rumah",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "Kecepatan transfer lebih cepat, jeda berkurang, dan lebih aman dibandingkan pilihan WiFi sebelumnya"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Memori Intel® Optane™",
+                  "subtitle": "Tingkatkan responsivitas PC Anda",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "Membuka file besar, mengaktifkan aplikasi, dan bahkan memulai komputer dengan lebih cepat saat Anda memasangkan memori Intel® Optane™ dengan hard disk drive"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Teknologi Thunderbolt™ 3",
+                  "subtitle": "Menghadirkan kecepatan dan fleksibilitas ke USB&#8209;C*",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "Satu kabel pendek tersambung ke dok, monitor, penyimpanan, grafis eksternal dan banyak lagi, semua dilakukan sambil menyediakan daya"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Diverifikasi oleh Intel",
+                  "subtitle": "Era baru dalam inovasi laptop",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "Setiap laptop yang diverifikasi memenuhi standar tinggi yang ditetapkan Intel untuk daya respons cepat, masa pakai baterai lama, dan pengaktifan instan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Desktop, Mini PC, dan All&#8209;in&#8209;One",
+          "sub_title": "Apa yang ingin Anda lakukan dengan PC Anda?",
+          "id": "Desktop",
+          "image": "assets/images/desktop-all-in-one.png",
+          "icon": "assets/images/icons/icon-Desktop.svg",
+          "usage_categories": [
+            {
+              "title": "Produktivitas",
+              "id": "Desktop_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "Email dan penelusuran web",
+                  "id": "Desktop_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Periksa media sosial, chat bersama teman, belanja online, dan baca berita."
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "Tugas kantor rumahan",
+                  "id": "Desktop_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "Kelola kalender dan keuangan pribadi, tulis kartu liburan, serta simpan agenda."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Program usaha kecil dan menengah",
+                  "id": "Desktop_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "Berkolaborasi dalam dokumen bersama, persiapkan spreadsheet dan laporan, serta kelola gaji."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Aplikasi usaha rumit",
+                  "id": "Desktop_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "Cari dalam database, render objek 3D, dan gunakan perangkat lunak tingkat perusahaan.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Hiburan",
+              "id": "Desktop_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "Mendengarkan musik",
+                  "id": "Desktop_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "Putar lagu dan podcast favorit Anda satu per satu atau dalam daftar putar. "
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "Menonton TV dan film",
+                  "id": "Desktop_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "Nikmati acara favorit dalam kualitas HD di ruang santai Anda yang nyaman."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Streaming video 4K",
+                  "id": "Desktop_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Streaming video 4K terbaru dengan tingkat kejernihan luar biasa dalam setiap detail dan sudut.",
+                      "caption": "Direkomendasikan menggunakan layar 4K",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Hiburan VR dan 360˚",
+                  "id": "Desktop_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "Dapatkan pengalaman memukau yang luar biasa dengan realitas virtual. Hentikan aktivitas sehari-hari dan jelajahi dunia baru.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Foto dan Video",
+              "id": "Desktop_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "Mengelola foto secara online",
+                  "id": "Desktop_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "Kelompokkan foto ke dalam album, tandai orang dan tempat, serta posting di media sosial atau gabungkan ke dalam tayangan slide yang menarik.",
+                      "caption": "Sangat cocok dengan Chromebook<sup>*</sup>",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Pengeditan foto sederhana",
+                  "id": "Desktop_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Poles atau sempurnakan foto keluarga, teman, atau liburan terakhir serta hidupkan kembali momen favorit Anda.",
+                      "caption": "Coba dengan Windows<sup>*</sup> Ink",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Pengeditan video",
+                  "id": "Desktop_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Buat rangkuman cuplikan video yang menarik dari pengalaman Anda yang paling berkesan.",
+                      "caption": "Direkomendasikan menggunakan penyimpanan setidaknya 500 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Aplikasi media profesional",
+                  "id": "Desktop_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "Gunakan alat bantu perangkat lunak yang canggih untuk membuat video 4K, desain grafis, dan karya seni indah lainnya.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            },
+            {
+              "title": "Pendidikan",
+              "id": "Desktop_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "Sekolah Dasar",
+                  "id": "Desktop_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "Memungkinkan murid Sekolah Dasar berkolaborasi dengan teman sekelasnya dan mempelajari teknologi.",
+                      "caption": "Sangat cocok dengan Chromebook<sup>*</sup>",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Sekolah Menengah Pertama dan Atas",
+                  "id": "Desktop_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "Tulis laporan dan lakukan pencarian informasi secara online menggunakan perangkat lunak yang disertakan bersama perangkat."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Kampus dan universitas",
+                  "id": "Desktop_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "Buat catatan, tulis makalah, dan gunakan perangkat lunak produktivitas tingkat perusahaan."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Tugas belajar teknis",
+                  "id": "Desktop_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "Pelajari cara menggunakan alat bantu perangkat lunak khusus untuk membuat situs web, mengedit video 4K, dan membuat aplikasi.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Game",
+              "id": "Desktop_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "Puzzle dan game sosial",
+                  "id": "Desktop_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Tantang teman Anda untuk mengetahui siapa yang dapat secara cepat menghancurkan blok dan menyelesaikan teka-teki silang."
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Game sederhana satu pemain",
+                  "id": "Desktop_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "Jelajahi dunia baru fantastis dalam game yang menarik untuk seluruh keluarga."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Game online",
+                  "id": "Desktop_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Lawan pesaing dari seluruh dunia dengan memainkan game multipemain terpopuler."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Game berat dan VR",
+                  "id": "Desktop_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "Frame tidak menurun meskipun Anda menggunakan realitas virtual atau bermain game, streaming, dan merekam secara bersamaan.",
+                      "caption": "Direkomendasikan menggunakan kartu grafis terpisah",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "Desktop, Mini PC, dan All&#8209;in&#8209;One",
+              "id": "sj_Desktop",
+              "image": "assets/images/desktop-all-in-one-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "Nikmati grafis HD memukau dalam berbagai pilihan gaya dan konfigurasi desktop yang sesuai dengan kebutuhan Anda."
+                },
+                {
+                  "paragraph": "PC Mini adalah komputer berkemampuan penuh dengan ukuran cukup kecil untuk dimasukkan ke dalam laci."
+                },
+                {
+                  "paragraph": "All-in-One memiliki layar sentuh yang besar dan mudah dikonfigurasi."
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "Prosesor Intel® Core™ i9",
+              "id": "Desktop_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "Bermain game, streaming, dan merekam tanpa kompromi, atau bebaskan potensi kreatif Anda tanpa batas."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i7",
+              "id": "Desktop_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "Prosesor berkecepatan tinggi yang memberikan performa puncak untuk aplikasi berat yang ingin Anda jalankan."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_complex-business-applications"
+                },
+                {
+                  "id": "Desktop_vr-360-entertainment"
+                },
+                {
+                  "id": "Desktop_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i5",
+              "id": "Desktop_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "Kemampuan dan responsivitas canggih membuat Anda dapat meluangkan waktu lebih banyak untuk bekerja dan bermain, serta mengurangi waktu tunggu."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_small-midsize-business-programs"
+                },
+                {
+                  "id": "Desktop_4k-video-streaming"
+                },
+                {
+                  "id": "Desktop_video-editing"
+                },
+                {
+                  "id": "Desktop_college-university"
+                },
+                {
+                  "id": "Desktop_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i3",
+              "id": "Desktop_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "Performa lancar untuk tugas sehari-hari seperti produktivitas ringan dan streaming video layar penuh."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_home-office-tasks"
+                },
+                {
+                  "id": "Desktop_basic-single-player-games"
+                },
+                {
+                  "id": "Desktop_watching-tv-movies"
+                },
+                {
+                  "id": "Desktop_simple-photo-editing"
+                },
+                {
+                  "id": "Desktop_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Pentium®",
+              "id": "Desktop_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "Harga dan performa yang luar biasa membuat Anda dapat dengan mudah menyelesaikan pekerjaan sederhana online dan offline."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_organizing-photos-online"
+                },
+                {
+                  "id": "Desktop_elementary-school"
+                },
+                {
+                  "id": "Desktop_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Celeron®",
+              "id": "Desktop_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "Pilihan terbaik bagi pembeli yang memerlukan fungsi dasar dengan harga yang terjangkau."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Desktop_email-web-browsing"
+                },
+                {
+                  "id": "Desktop_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Prosesor",
+                  "subtitle": "(otak di komputer Anda)",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Memori",
+                  "subtitle": "(menjalankan beberapa program bersamaan)",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "Hingga 4 GB",
+                  "subtitle": "(cocok untuk menjalankan 1-3 program sekaligus)"
+                },
+                {
+                  "title": "Hingga 8 GB",
+                  "subtitle": "(cocok untuk menjalankan 4-6 program sekaligus)"
+                },
+                {
+                  "title": "Hingga 16 GB",
+                  "subtitle": "(cocok untuk menjalankan 7 atau lebih program sekaligus)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Penyimpanan",
+                  "subtitle": "(menyimpan file di komputer Anda)",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "Hingga HDD 500 GB",
+                  "subtitle": "(cocok untuk menyimpan video hingga 100 jam)"
+                },
+                {
+                  "title": "Hingga HDD 1 TB dan/atau SSD 128/256 GB"
+                },
+                {
+                  "title": "HDD 500 GB + SSD",
+                  "subtitle": "(cocok untuk booting dan akses data cepat)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Layar",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "Hingga 1920 x 1080 piksel (HD)"
+                },
+                {
+                  "title": "Hingga 1920 x 1080 piksel (HD)"
+                },
+                {
+                  "title": "Hingga 3840 x 2160 (4K Ultra HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Grafis",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "Grafis terintegrasi"
+                },
+                {
+                  "title": "Grafis terintegrasi atau grafis terpisah tingkat awal"
+                },
+                {
+                  "title": "Grafis terpisah atau grafis terintegrasi tingkat tinggi"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Intel® WiFi 6 (Gig+)",
+                  "subtitle": "Terobosan berikutnya dalam WiFi untuk PC dan router rumah",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "Kecepatan transfer lebih cepat, jeda lebih singkat, dan lebih aman dibandingkan pilihan WiFi sebelumnya"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Memori Intel® Optane™",
+                  "subtitle": "Tingkatkan responsivitas PC Anda",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "Membuka file besar, meluncurkan aplikasi, dan bahkan memulai komputer Anda dengan lebih cepat saat Anda memasangkan memori Intel® Optane™ dengan hard disk drive"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Teknologi Thunderbolt™ 3",
+                  "subtitle": "Menghadirkan kecepatan dan fleksibilitas ke USB&#8209;C*",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "Satu kabel kecil terhubung ke dok, monitor, penyimpanan, grafik eksternal dan lainnya, semua dilakukan sambil memberikan daya"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Diverifikasi oleh Intel",
+                  "subtitle": "Era baru dalam inovasi laptop",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "Setiap laptop yang diverifikasi memenuhi standar tinggi yang ditetapkan Intel untuk daya respons cepat, masa pakai baterai lama, dan pengaktifan instan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Perangkat OS Chrome",
+          "sub_title": "Apa yang ingin Anda lakukan dengan Perangkat OS Chrome Anda?",
+          "id": "Chromebook",
+          "image": "assets/images/chromebook.png",
+          "icon": "assets/images/icons/icon-Desktop.svg",
+          "usage_categories": [
+            {
+              "title": "Produktivitas",
+              "id": "Chromebook_productivity",
+              "metrics": "1",
+              "icon": "assets/images/icons/icon-productivity.svg",
+              "usage_models": [
+                {
+                  "title": "Email dan penelusuran web",
+                  "id": "Chromebook_email-web-browsing",
+                  "metrics": "1a",
+                  "icon": "assets/images/icons/icon-email-web-browsing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Periksa media sosial, chat bersama teman, belanja online, dan baca berita."
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "Tugas kantor rumahan",
+                  "id": "Chromebook_home-office-tasks",
+                  "metrics": "1b",
+                  "icon": "assets/images/icons/icon-home-office-tasks.svg",
+                  "content": [
+                    {
+                      "paragraph": "Kelola kalender dan keuangan pribadi, tulis kartu liburan, serta simpan agenda."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Program usaha kecil dan menengah",
+                  "id": "Chromebook_small-midsize-business-programs",
+                  "metrics": "1c",
+                  "icon": "assets/images/icons/icon-small-midsize-business-programs.svg",
+                  "content": [
+                    {
+                      "paragraph": "Berkolaborasi dalam dokumen bersama, persiapkan spreadsheet dan laporan, serta kelola gaji."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Aplikasi usaha rumit",
+                  "id": "Chromebook_complex-business-applications",
+                  "metrics": "1d",
+                  "icon": "assets/images/icons/icon-complex-business-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "Cari dalam database, render objek 3D, dan gunakan perangkat lunak tingkat perusahaan.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Hiburan",
+              "id": "Chromebook_entertainment",
+              "metrics": "2",
+              "icon": "assets/images/icons/icon-entertainment.svg",
+              "usage_models": [
+                {
+                  "title": "Mendengarkan musik",
+                  "id": "Chromebook_listening-to-music",
+                  "metrics": "2a",
+                  "icon": "assets/images/icons/icon-listening-to-music.svg",
+                  "content": [
+                    {
+                      "paragraph": "Putar lagu dan podcast favorit Anda satu per satu atau dalam daftar putar. "
+                    }
+                  ],
+                  "chip": "celeron"
+                },
+                {
+                  "title": "Menonton TV dan film",
+                  "id": "Chromebook_watching-tv-movies",
+                  "metrics": "2b",
+                  "icon": "assets/images/icons/icon-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "Nikmati acara favorit dalam kualitas HD di ruang santai Anda yang nyaman."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Streaming video 4K",
+                  "id": "Chromebook_4k-video-streaming",
+                  "metrics": "2c",
+                  "icon": "assets/images/icons/icon-4k-video-streaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Streaming video 4K terbaru dengan tingkat kejernihan luar biasa dalam setiap detail dan sudut.",
+                      "caption": "Direkomendasikan menggunakan layar 4K",
+                      "caption_icon": "assets/images/icons/icon-caption-4k.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Hiburan VR dan 360˚",
+                  "id": "Chromebook_vr-360-entertainment",
+                  "metrics": "2d",
+                  "icon": "assets/images/icons/icon-vr-360-entertainment.svg",
+                  "content": [
+                    {
+                      "paragraph": "Dapatkan pengalaman memukau yang luar biasa dengan realitas virtual. Hentikan aktivitas sehari-hari dan jelajahi dunia baru.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Foto dan Video",
+              "id": "Chromebook_photo-video",
+              "metrics": "3",
+              "icon": "assets/images/icons/icon-photo-video.svg",
+              "usage_models": [
+                {
+                  "title": "Mengelola foto secara online",
+                  "id": "Chromebook_organizing-photos-online",
+                  "metrics": "3a",
+                  "icon": "assets/images/icons/icon-organizing-photos-online.svg",
+                  "content": [
+                    {
+                      "paragraph": "Kelompokkan foto ke dalam album, tandai orang dan tempat, serta posting di media sosial atau gabungkan ke dalam tayangan slide yang menarik.",
+                      "caption": "Sangat cocok dengan Chromebook<sup>*</sup>",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Pengeditan foto sederhana",
+                  "id": "Chromebook_simple-photo-editing",
+                  "metrics": "3b",
+                  "icon": "assets/images/icons/icon-simple-photo-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Poles atau sempurnakan foto keluarga, teman, atau liburan terakhir serta hidupkan kembali momen favorit Anda.",
+                      "caption": "Coba dengan Windows<sup>*</sup> Ink",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Pengeditan video",
+                  "id": "Chromebook_video-editing",
+                  "metrics": "3c",
+                  "icon": "assets/images/icons/icon-video-editing.svg",
+                  "content": [
+                    {
+                      "paragraph": "Buat rangkuman cuplikan video yang menarik dari pengalaman Anda yang paling berkesan.",
+                      "caption": "Direkomendasikan menggunakan penyimpanan setidaknya 500 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-storage.svg"
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Aplikasi media profesional",
+                  "id": "Chromebook_professional-media-applications",
+                  "metrics": "3d",
+                  "icon": "assets/images/icons/icon-professional-media-applications.svg",
+                  "content": [
+                    {
+                      "paragraph": "Gunakan alat bantu perangkat lunak yang canggih untuk membuat video 4K, desain grafis, dan karya seni indah lainnya.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            },
+            {
+              "title": "Pendidikan",
+              "id": "Chromebook_education",
+              "metrics": "4",
+              "icon": "assets/images/icons/icon-education.svg",
+              "usage_models": [
+                {
+                  "title": "Sekolah Dasar",
+                  "id": "Chromebook_elementary-school",
+                  "metrics": "4a",
+                  "icon": "assets/images/icons/icon-education.svg",
+                  "content": [
+                    {
+                      "paragraph": "Memungkinkan murid Sekolah Dasar berkolaborasi dengan teman sekelasnya dan mempelajari teknologi.",
+                      "caption": "Sangat cocok dengan Chromebook<sup>*</sup>",
+                      "caption_icon": "assets/images/icons/icon-caption-checkmark.svg"
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Sekolah Menengah Pertama dan Atas",
+                  "id": "Chromebook_middle-school-high-school",
+                  "metrics": "4b",
+                  "icon": "assets/images/icons/icon-middle-school-high-school.svg",
+                  "content": [
+                    {
+                      "paragraph": "Tulis laporan dan lakukan pencarian informasi secara online menggunakan perangkat lunak yang disertakan bersama perangkat."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Kampus dan universitas",
+                  "id": "Chromebook_college-university",
+                  "metrics": "4c",
+                  "icon": "assets/images/icons/icon-college-university.svg",
+                  "content": [
+                    {
+                      "paragraph": "Buat catatan, tulis makalah, dan gunakan perangkat lunak produktivitas tingkat perusahaan."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Tugas belajar teknis",
+                  "id": "Chromebook_technical-coursework",
+                  "metrics": "4d",
+                  "icon": "assets/images/icons/icon-technical-coursework.svg",
+                  "content": [
+                    {
+                      "paragraph": "Pelajari cara menggunakan alat bantu perangkat lunak khusus untuk membuat situs web, mengedit video 4K, dan membuat aplikasi.",
+                      "caption": "Direkomendasikan menggunakan memori setidaknya 8 GB",
+                      "caption_icon": "assets/images/icons/icon-caption-memory.svg"
+                    }
+                  ],
+                  "chip": "i7"
+                }
+              ]
+            },
+            {
+              "title": "Game",
+              "id": "Chromebook_gaming",
+              "metrics": "5",
+              "icon": "assets/images/icons/icon-gaming.svg",
+              "usage_models": [
+                {
+                  "title": "Puzzle dan game sosial",
+                  "id": "Chromebook_puzzle-social-gaming",
+                  "metrics": "5a",
+                  "icon": "assets/images/icons/icon-puzzle-social-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Tantang teman Anda untuk mengetahui siapa yang dapat secara cepat menghancurkan blok dan menyelesaikan teka-teki silang."
+                    }
+                  ],
+                  "chip": "pentium"
+                },
+                {
+                  "title": "Game sederhana satu pemain",
+                  "id": "Chromebook_basic-single-player-games",
+                  "metrics": "5b",
+                  "icon": "assets/images/icons/icon-basic-single-player-games.svg",
+                  "content": [
+                    {
+                      "paragraph": "Jelajahi dunia baru fantastis dalam game yang menarik untuk seluruh keluarga."
+                    }
+                  ],
+                  "chip": "i3"
+                },
+                {
+                  "title": "Game online",
+                  "id": "Chromebook_online-gaming",
+                  "metrics": "5c",
+                  "icon": "assets/images/icons/icon-gaming.svg",
+                  "content": [
+                    {
+                      "paragraph": "Lawan pesaing dari seluruh dunia dengan memainkan game multipemain terpopuler."
+                    }
+                  ],
+                  "chip": "i5"
+                },
+                {
+                  "title": "Game berat dan VR",
+                  "id": "Chromebook_hardcore-gaming-vr",
+                  "metrics": "5d",
+                  "icon": "assets/images/icons/icon-hardcore-gaming-vr.svg",
+                  "content": [
+                    {
+                      "paragraph": "Frame tidak menurun meskipun Anda menggunakan realitas virtual atau bermain game, streaming, dan merekam secara bersamaan.",
+                      "caption": "Direkomendasikan menggunakan kartu grafis terpisah",
+                      "caption_icon": "assets/images/icons/icon-caption-graphics.svg"
+                    }
+                  ],
+                  "chip": "i9"
+                }
+              ]
+            }
+          ],
+          "form_factor_side_journey": [
+            {
+              "title": "Perangkat OS Chrome",
+              "id": "sj_Chromebook",
+              "image": "assets/images/chromebook-side-journey.png",
+              "content": [
+                {
+                  "paragraph": "Bekerja dan bermain saat bepergian dengan laptop yang didukung baterai tahan lama, serta desain menarik dan ringan."
+                },
+                {
+                  "paragraph": "2 in 1 menghadirkan performa laptop lengkap dan portabilitas tablet dalam satu perangkat."
+                },
+                {
+                  "paragraph": "Chromebook<sup>*</sup> mendapatkan pembaruan otomatis, sehingga komputer Anda tetap terupdate dengan upaya minimal."
+                }
+              ]
+            }
+          ],
+          "processor_side_journeys": [
+            {
+              "title": "Prosesor Intel® Core™ i9",
+              "id": "Chromebook_sj_i9",
+              "chip_image": "assets/images/i9.png",
+              "content": [
+                {
+                  "paragraph": "Bermain game, streaming, dan merekam tanpa kompromi, atau bebaskan potensi kreatif Anda tanpa batas."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Notebook_professional-media-applications"
+                },
+                {
+                  "id": "Notebook_hardcore-gaming-vr"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i7",
+              "id": "Chromebook_sj_i7",
+              "chip_image": "assets/images/i7.png",
+              "content": [
+                {
+                  "paragraph": "Prosesor berkecepatan tinggi yang memberikan performa puncak untuk aplikasi berat yang ingin Anda jalankan."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_complex-business-applications"
+                },
+                {
+                  "id": "Chromebook_vr-360-entertainment"
+                },
+                {
+                  "id": "Chromebook_technical-coursework"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i5",
+              "id": "Chromebook_sj_i5",
+              "chip_image": "assets/images/i5.png",
+              "content": [
+                {
+                  "paragraph": "Kemampuan dan responsivitas canggih membuat Anda dapat meluangkan waktu lebih banyak untuk bekerja dan bermain, serta mengurangi waktu tunggu."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_small-midsize-business-programs"
+                },
+                {
+                  "id": "Chromebook_4k-video-streaming"
+                },
+                {
+                  "id": "Chromebook_video-editing"
+                },
+                {
+                  "id": "Chromebook_college-university"
+                },
+                {
+                  "id": "Chromebook_online-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Core™ i3",
+              "id": "Chromebook_sj_i3",
+              "chip_image": "assets/images/i3.png",
+              "content": [
+                {
+                  "paragraph": "Performa lancar untuk tugas sehari-hari seperti produktivitas ringan dan streaming video layar penuh."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_home-office-tasks"
+                },
+                {
+                  "id": "Chromebook_basic-single-player-games"
+                },
+                {
+                  "id": "Chromebook_watching-tv-movies"
+                },
+                {
+                  "id": "Chromebook_simple-photo-editing"
+                },
+                {
+                  "id": "Chromebook_middle-school-high-school"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Pentium®",
+              "id": "Chromebook_sj_pentium",
+              "chip_image": "assets/images/pentium.png",
+              "content": [
+                {
+                  "paragraph": "Harga dan performa yang luar biasa membuat Anda dapat dengan mudah menyelesaikan pekerjaan sederhana online dan offline."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_organizing-photos-online"
+                },
+                {
+                  "id": "Chromebook_elementary-school"
+                },
+                {
+                  "id": "Chromebook_puzzle-social-gaming"
+                }
+              ]
+            },
+            {
+              "title": "Prosesor Intel® Celeron®",
+              "id": "Chromebook_sj_celeron",
+              "chip_image": "assets/images/celeron.png",
+              "content": [
+                {
+                  "paragraph": "Pilihan terbaik bagi pembeli yang memerlukan fungsi dasar dengan harga yang terjangkau."
+                }
+              ],
+              "usage_models": [
+                {
+                  "id": "Chromebook_email-web-browsing"
+                },
+                {
+                  "id": "Chromebook_listening-to-music"
+                }
+              ]
+            }
+          ],
+          "device_configuration_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Prosesor",
+                  "subtitle": "(otak di komputer Anda)",
+                  "image": "assets/images/icons/icon-caption-processor.svg"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-01.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-02.png"
+                },
+                {
+                  "image": "assets/images/device-configuration-chip-03.png"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Memori",
+                  "subtitle": "(menjalankan beberapa program bersamaan)",
+                  "image": "assets/images/icons/icon-caption-memory.svg"
+                },
+                {
+                  "title": "Hingga 4 GB",
+                  "subtitle": "(cocok untuk menjalankan 1-3 program sekaligus)"
+                },
+                {
+                  "title": "Hingga 8 GB",
+                  "subtitle": "(cocok untuk menjalankan 4-6 program sekaligus)"
+                },
+                {
+                  "title": "Hingga 16 GB",
+                  "subtitle": "(cocok untuk menjalankan 7 atau lebih program sekaligus)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Penyimpanan",
+                  "subtitle": "(menyimpan file di komputer Anda)",
+                  "image": "assets/images/icons/icon-caption-storage.svg"
+                },
+                {
+                  "title": "Hingga HDD 500 GB",
+                  "subtitle": "(cocok untuk menyimpan video hingga 100 jam)"
+                },
+                {
+                  "title": "Hingga HDD 1 TB dan/atau SSD 128/256 GB"
+                },
+                {
+                  "title": "HDD 500 GB + SSD",
+                  "subtitle": "(cocok untuk booting dan akses data cepat)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Layar",
+                  "image": "assets/images/icons/icon-caption-screen.svg"
+                },
+                {
+                  "title": "Hingga 1920 x 1080 piksel (HD)"
+                },
+                {
+                  "title": "Hingga 1920 x 1080 piksel (HD)"
+                },
+                {
+                  "title": "Hingga 3840 x 2160 (4K Ultra HD)"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Grafis",
+                  "image": "assets/images/icons/icon-caption-graphics.svg"
+                },
+                {
+                  "title": "Grafis terintegrasi"
+                },
+                {
+                  "title": "Grafis terintegrasi atau grafis terpisah tingkat awal"
+                },
+                {
+                  "title": "Grafis terpisah atau grafis terintegrasi tingkat tinggi"
+                }
+              ]
+            }
+          ],
+          "features_technology_side_journey": [
+            {
+              "row": [
+                {
+                  "title": "Intel® WiFi 6 (Gig+)",
+                  "subtitle": "Terobosan berikutnya dalam WiFi untuk PC dan router rumah",
+                  "image": "assets/images/icons/icon-caption-wifi6.svg"
+                },
+                {
+                  "content": "Kecepatan transfer lebih cepat, jeda lebih singkat, dan lebih aman dibandingkan pilihan WiFi sebelumnya"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Memori Intel® Optane™",
+                  "subtitle": "Tingkatkan responsivitas PC Anda",
+                  "image": "assets/images/icons/icon-optane.svg"
+                },
+                {
+                  "content": "Membuka file besar, meluncurkan aplikasi, dan bahkan memulai komputer Anda dengan lebih cepat saat Anda memasangkan memori Intel® Optane™ dengan hard disk drive"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Teknologi Thunderbolt™ 3",
+                  "subtitle": "Menghadirkan kecepatan dan fleksibilitas ke USB&#8209;C*",
+                  "image": "assets/images/icons/icon-caption-thunderbolt.svg"
+                },
+                {
+                  "content": "Satu kabel kecil terhubung ke dok, monitor, penyimpanan, grafik eksternal dan lainnya, semua dilakukan sambil memberikan daya"
+                }
+              ]
+            },
+            {
+              "row": [
+                {
+                  "title": "Diverifikasi oleh Intel",
+                  "subtitle": "Era baru dalam inovasi laptop",
+                  "image": "assets/images/icons/icon-athena.svg"
+                },
+                {
+                  "content": "Setiap laptop yang diverifikasi memenuhi standar tinggi yang ditetapkan Intel untuk daya respons cepat, masa pakai baterai lama, dan pengaktifan instan"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "usage_category_title": "Saya ingin menggunakan komputer untuk:",
+      "usage_category_subtitle": "Pilih semua jawaban yang sesuai di bawah ini",
+      "usage_model_side_journey_title": "Penggunaan umum:",
+      "processor_comparison_side_journey_title": "Bandingkan prosesor Intel®",
+      "processor_comparison_side_journey_subtitle": "Berikut adalah prosesor yang kami sarankan untuk setiap beban kerja. Pilih tab di bawah untuk informasi selengkapnya.",
+      "processor_side_journeys_subtitle": "PROSESOR BERIKUT SANGAT COCOK UNTUK",
+      "device_configuration_side_journey_title": "Konfigurasi perangkat pada umumnya",
+      "device_configuration_side_journey_subtitle": "Berikut adalah konfigurasi perangkat umum dan keterangan singkat tentang arti perbedaan pilihan tersebut bagi Anda.",
+      "device_configuration_side_journey_sidebar_title": "Pelajari selengkapnya tentang konfigurasi perangkat",
+      "features_technology_side_journey_title": "Fitur dan teknologi PC lainnya",
+      "features_technology_side_journey_subtitle": "Berikut adalah beberapa atribut lain yang harus Anda pertimbangkan saat membandingkan perangkat.",
+      "features_technology_side_journey_button": "Jelajahi fitur dan teknologi PC lain",
+      "reasoning_side_journey_title": "Anda memilih",
+      "reasoning_side_journey_subtitle": "Kami merekomendasikan perangkat ini karena Anda tertarik dengan hal berikut:",
+      "sharing_title": "Dapatkan tautan yang dapat dibagikan",
+      "sharing_content": [
+        {
+          "paragraph": "Salin tautan ini untuk menyimpan rekomendasi Anda dan membagikannya kepada orang lain melalui email atau media sosial"
+        }
+      ],
+      "legal_title": "Hukum",
+      "legal_content": [
+        {
+          "paragraph": "Fitur dan keunggulan teknologi Intel® tergantung pada konfigurasi sistem dan mungkin memerlukan pengaktifan perangkat keras, perangkat lunak, atau aktivasi layanan. Performa dapat beragam, tergantung pada konfigurasi sistem. Tidak ada produk atau komponen yang sepenuhnya aman. Hubungi produsen maupun peritel sistem Anda, atau pelajari lebih lanjut di intel.com."
+        },
+        {
+          "paragraph": "Intel, logo Intel, Celeron, Pentium, Intel Core, Intel Optane, Thunderbolt, dan Thunderbolt logo adalah merek dagang dari Intel Corporation atau anak perusahaannya di AS dan/atau negara lainnya."
+        },
+        {
+          "paragraph": "*Nama dan merek lain adalah hak milik dari masing-masing pemiliknya."
+        },
+        {
+          "paragraph": "© Intel Corporation"
+        }
+      ],
+      "recommendation_title": "Direkomendasikan untuk Anda",
+      "recommendation_reasoning_title": "Kami merekomendasikan produk ini karena Anda memilih",
+      "recommendation_button": "Lihat perangkat yang direkomendasikan",
+      "recommendation_button_subtitle": "Rekomendasi untuk Anda telah tersedia!",
+      "pre_recommendation_title": "Direkomendasikan untuk Anda sejauh ini",
+      "pre_recommendation_content": "Hampir selesai! Untuk hasil terbaik, jawab beberapa pertanyaan lagi.",
+      "pre_recommendation_button": "Lihat Rekomendasi",
+      "pre_recommendation_close_button": "Tingkatkan Rekomendasi",
+      "product_button": "Lihat produk",
+      "product_price_label": "Mulai dari",
+      "start_button": "Mulai",
+      "next_button": "Lanjutkan",
+      "modal_button": "PELAJARI SELENGKAPNYA",
+      "powered_by_title": "Produk ini didukung oleh",
+      "powered_by_button": "INFO SELENGKAPNYA",
+      "view_all_title": "Lihat perbandingan prosesor ini dengan prosesor lainnya",
+      "view_all_button": "LIHAT SEMUA",
+      "wim_messaging": "Prosesor adalah otak PC Anda. Intel membuatnya cerdas.",
+      "restart_title": "Ingin rekomendasi baru?",
+      "restart_button": "Mulai Ulang",
+      "products_tab": "PRODUK",
+      "summary_tab": "RINGKASAN",
+      "meta_description": "Jenis PC apa yang sesuai untuk Anda? Lihat produk yang direkomendasikan untuk mengetahuinya!",
+      "powered_by_celeron": "Prosesor Intel® Celeron®",
+      "powered_by_pentium": "Prosesor Intel® Pentium® ",
+      "powered_by_i3": "Prosesor Intel® Core™ i3",
+      "powered_by_i5": "Prosesor Intel® Core™ i5",
+      "powered_by_i7": "Prosesor Intel® Core™ i7",
+      "powered_by_i9": "Prosesor Intel® Core™ i9",
+      "pentium": "assets/images/pentium.png",
+      "celeron": "assets/images/celeron.png",
+      "i3": "assets/images/i3.png",
+      "i5": "assets/images/i5.png",
+      "i7": "assets/images/i7.png",
+      "i9": "assets/images/i9.png",
+      "tagline": "Pastikan Intel",
+      "html_lang": "id",
+      "analytics_lang": "id-id",
+      "downsell_messaging": "Kami tidak dapat menemukan kecocokan yang tepat untuk Anda, namun ada beberapa produk serupa yang mungkin Anda minati.",
+      "iframe_offset_desktop": "0",
+      "iframe_offset_mobile": "0",
+      "iframe_offset_breakpoint": "0",
+      "demo_mode": false,
+      "demo_mode_dialog": "Tombol ini akan membuka URL produk dengan konfigurasi kustom Anda.",
+      "retailer_logo": "",
+      "display_chromebook": false,
+      "minimum_chromebook_quantity": 1,
+      "minimum_form_factor_quantity": 1,
+      "minimum_api_quantity": 9,
+      "localized_api_data": false,
+      "skip_form_factor": false,
+      "skip_form_factor_to": "Notebook"
+    }
+  ]
+}
